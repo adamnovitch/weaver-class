@@ -56,6 +56,135 @@ ClassList.weaver = {
 			description : "\n   " + "I can cast Weaver spells that I know, using Wisdom as my spellcasting ability",
 			additional : ["", "2 spells known", "3 spells known", "3 spells known", "4 spells known", "4 spells known", "5 spells known", "5 spells known", "6 spells known", "6 spells known", "7 spells known", "7 spells known", "8 spells known", "8 spells known", "9 spells known", "9 spells known", "10 spells known", "10 spells known", "11 spells known", "11 spells known"]
 		},
+        "weave-powers" : {
+            name : "Weave Powers",
+            minlevel : 2,
+            description : "\n   " + "I can use Weave points to use spell-like abilities",
+            additional : ["", "1 weave power known", "1 weave power known", "1 weave power known", 
+                              "2 weave powers known", "2 weave powers known", "2 weave powers known", 
+                              "3 weave powers known", "3 weave powers known", "3 weave powers known", 
+                              "4 weave powers known", "4 weave powers known", "4 weave powers known", 
+                              "5 weave powers known", "5 weave powers known", "5 weave powers known", 
+                              "6 weave powers known", "6 weave powers known", "6 weave powers known", 
+                              "7 weave powers known"],
+            extraname : "Weave Power",
+            extrachoices : ["Danger Sense",
+                            "Event Focus",
+                            "Focus Skill",
+                            "Helping Hand",
+                            "Mind Meld",
+                            "Past Sense",
+                            "Strong Strike",
+                            "Brain Teasing",
+                            "Deflect Weapons",
+                            "Patient Defense",
+                            "Resist Environment",
+                            "Sense Emotion",
+                            "Battle Meditation",
+                            "End Affliction",
+                            "Manipulate Emotion",
+                            "Mind Probe",
+                            "Transfer Emotion"/*,
+                            "Improve Ability",
+                            "Turn Good/Evil",
+                            "Brutal Strike",
+                            "Destructive Burst",
+                            "Induce Trance",
+                            "Protect Thoughts",
+                            "Resting Alertness",
+                            "Stun",
+                            "Bloodlust",
+                            "Resist Trauma",
+                            "Break Connection",
+                            "Blindsight",
+                            "Probe Darkness",
+                            "Clear Mind"*/],
+            "danger sense" : {
+                name : "Danger Sense",
+                description : "\n   " + "(1 point) When I would have to make a dexterity saving throw, I can gain advantage on that saving throw."
+            },
+            "event focus" : {
+                name : "Event Focus",
+                description : "\n   " + "(1 point) By concentrating for 10 minutes, you open your senses to you surroundings. While concentrating, you can find any event occurring within 1 mile of your position. For every additional 2 points you spend on this ability you can double the range."
+            },
+            "focus skill" : {
+                name : "Focus Skill",
+                description : "\n   " + "(1 point) I add half my proficiency bonus to my next ability or skill check"
+            },
+            "helping hand" : {
+                name : "Helping Hand",
+                description : "\n   " + "(1 point) I can use the help action as a bonus action to aid an ally within 30 feet",
+                action : ["bonus action", " (30 feet)"]
+            },
+            "mind meld" : {
+                name : "Mind Meld",
+                description : "\n   " + "(1 point) As a bonus action, you can communicate telepathically with one willing creature you can see within 120 feet of you. The target must have an	Intelligence of at least 2,	otherwise this ability fails and the action is wasted. This communication can occur until the end of the current turn. You don’t need to share a language with the target for it to understand your telepathic utterances, and it understands you even if it lacks a language. You also gain access to one memory of the target’s choice, gaining perfect recall of one thing it saw or did.",
+                action : ["bonus action", " (120 feet)"]
+            },
+            "past sense" : {
+                name : "Past Sense",
+                description : "\n   " + "(1 point) By focusing for 1 minute at a location, you can gain an accurate understanding of any events that occurred at that spot within the past day. For every additional 2 points you spend on this ability you can double the time."
+            },
+            "strong strike" : {
+                name : "Strong Strike",
+                description : "\n   " + "(1 point) Gain proficiency in unarmed strikes for this turn, your damage dice for your unarmed strikes and weapon attacks depends on your proficiency bonus (+2 use d4, +3 use d6, +4 use d8, +5 use d10, +6 use d12).",
+                additional : levels.map(function(n) {
+                    if (n < 5) return "1d4";
+                    if (n < 9) return "1d6";
+                    if (n < 13) return "1d8";
+                    if (n < 17) return "1d10";
+                    return "1d12";}
+                )
+            },
+            "brain teasing" : {
+                name : "Brain Teasing",
+                description : "\n   " + "(2 points) Target creature must make a wisdom save, taking 3d6 psychic damage on a failure, half on a success. It also becomes frightened if it fails.",
+                action : ["action"," (10 feet)"]
+            },
+            "deflect weapons" : {
+                name : "Deflect Weapons",
+                description : "\n   " + "(2 points) When hit by a weapon attack, you can reduce damage by 1d8 + Weaver Level.",
+                action : ["reaction",""]
+            },
+            "patient defense" : {
+                name : "Patient Defense",
+                description : "\n   " + "(2 points) I can take the Dodge action as a bonus action.",
+                action : ["bonus action",""]
+            },
+            "resist environment" : {
+                name : "Resist Environment",
+                description : "\n   " + "(2 points) You become immune to the adverse effects of harsh weather for 1 hour. Additionally if you spend an extra 5 pts. you become immune to exhaustion for the next 8 hours."
+            },
+            "sense emotion" : {
+                name : "Resist Environment",
+                description : "\n   " + "(2 points) You attune your senses to pick up the emotions of others for 10 minutes, with concentration. As your action, and as a bonus action on each turn for the duration, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm."
+            },
+            "battle meditation" : {
+                name : "Battle Meditation",
+                description : "\n   " + "(3 points) As a bonus action, you can grant yourself advantage on your next weapon attack.",
+                action : ["bonus action",""]
+            },
+            "end affliction" : {
+                name : "End Affliction",
+                description : "\n   " + "(3 points) End a fear effect on yourself",
+                action : ["bonus action",""]
+            },
+            "manipulate emotion" : {
+                name : "Manipulate Emotion",
+                description : "\n   " + "(3 points) As an action, you can choose 1 target you can see within 30 feet. You can attempt to change their emotional state. The creature can attempt a Wisdom saving throw to resist the effect. For every extra point you use towards this ability, you can attempt to use this ability on one additional creature within range. You can make the target creature(s) frightened, or you can make it friendly towards you and/or hostile towards their allies.",
+                action : ["action"," (30 feet)"]
+            },
+            "mind probe" : {
+                name : "Mind Probe",
+                description : "\n   " + "(3 points) Touch an unwilling creature, which must make a Wisdom saving throw to avoid the effect. Gain access to one memory of the your choice, gaining perfect recall of one thing it saw or did. Also read its thougts",
+                action : ["action"," (touch)"]
+            },
+            "transfer emotion" : {
+                name : "Transfer Emotion",
+                description : "\n   " + "(3 points) If a spell or ability puts you or an ally under the effect of an emotional condition such as fear, being charmed, etc, you can use this ability to cancel the effect on yourself or ally and redirect it at the hostile creature, which must make a Wisdom save.",
+                action : ["action"," (60 feet)"]
+            }
+        },
 		"path-selection" : {
 			name : "Weaver Path",
 			minlevel : 3,
@@ -65,7 +194,7 @@ ClassList.weaver = {
 			name : "Extra Attack",
 			minlevel : 5,
 			description : "\n   " + "I make 2 attacks with my attack action"
-		}
+		},
 	}	
 };
 
@@ -136,7 +265,6 @@ ClassSubList["weaver-sage"] = {
 			minlevel : 6,
 			description : "\n   " + "I can add my Wisdom modifier to the damage roll of any spell or weave ability I use"
 		},
-		},
 		"subclassfeature10" : {
 			name : "Undecided",
 			minlevel : 10,
@@ -149,12 +277,12 @@ ClassSubList["weaver-sage"] = {
 			saves : ["Str", "Int", "Wis", "Cha"]
 		},
 		"subclassfeature18" : {
-			name : "Undecided",
+			name : "Natural Weave",
 			minlevel : 18,
-			description : "\n   " + "Undecided"
-		}
-	}
-};
+			description : "\n   " + "At 18th level, Weave powers I know that normally cost 2 or fewer weave points to use, do not cost any points to use"
+        }
+    }
+}
 
 ClassSubList["weaver-sentinel"] = {
 	regExpSearch : /entinel/i,
@@ -201,7 +329,7 @@ WeaponsList["force blast"] = {
 	range : "60 ft",
 	description : "No disadv for melee range. STR save or 5 ft push. Extra 1d6 per pt spent. Extra 5 ft pushback per 2 pts spent.",
 	abilitytodamage : function () {
-		return (subclass == ClassSubList["weaver-sage"]) && (level > 5);
+		return ((subclass == ClassSubList["weaver-sage"]) && (level > 5));
 	},
 };
 
