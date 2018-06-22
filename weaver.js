@@ -260,6 +260,12 @@ ClassList.weaver = {
 			minlevel : 5,
 			description : "\n   " + "I make 2 attacks with my attack action"
 		},
+		"power-beyond" : {
+			name : "Power Beyond",
+			minlevel : 20,
+			description : "\n   " + "You learn 4 6th level spells. You can cast one of them once between long rests.",
+            spellcastingExtra : ["chain lightning","mass suggestion","tenser's transformation","true seeing"]
+		}
 	}	
 };
 
@@ -280,7 +286,6 @@ ClassSubList["weaver-guardian"] = {
 		},
 		"subclassfeature3.1" : {
 			name : "Armor Training",
-			//source : ["AN:WV",1],
 			minlevel : 3,
 			description : "\n   " + "I gain proficiency with heavy armor",
 			armor : [true, true, true, false]
@@ -318,22 +323,26 @@ ClassSubList["weaver-sage"] = {
 	subname : "Path of the Sage",
 	features : {
 		"subclassfeature3" : {
-			name : "Mana Recovery",
+			name : "Extra Cantrip",
 			minlevel : 3,
+			description : "\n   " + "I learn a 3rd cantrip",
+			spellcastingKnown : {
+                cantrips : levels.map(function (n) { return n < 2 ? 0 : 3; }),
+                spells : [0, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11]
+            }
+		},
+		"subclassfeature6" : {
+			name : "Mana Recovery",
+			minlevel : 6,
 			description : "\n   " + "During a short rest, I can recover a number mana points equal to half my weaver level (rounded up) + WIS modifier",
 			additional : levels.map(function (n) {
 				return (Math.ceil(n / 2)) + " + WIS mana points";
 			})
 		},
-		"subclassfeature6" : {
-			name : "Enhanced Magic",
-			minlevel : 6,
-			description : "\n   " + "I can add my Wisdom modifier to the damage roll of any spell or weave ability I use"
-		},
 		"subclassfeature10" : {
-			name : "Undecided",
+			name : "Enhanced Magic",
 			minlevel : 10,
-			description : "\n   " + "Undecided"
+			description : "\n   " + "I can add my Wisdom modifier to the damage roll of any spell or weave ability I use"
 		},
 		"subclassfeature14" : {
 			name : "Force of Will",
@@ -342,7 +351,7 @@ ClassSubList["weaver-sage"] = {
 			saves : ["Str", "Int", "Wis", "Cha"]
 		},
 		"subclassfeature18" : {
-			name : "Natural Weave",
+			name : "Unlimited Power!",
 			minlevel : 18,
 			description : "\n   " + "At 18th level, Weave powers I know that normally cost 2 or fewer weave points to use, do not cost any points to use"
         }
@@ -394,7 +403,7 @@ WeaponsList["force blast"] = {
 	range : "60 ft",
 	description : "No disadv for melee range. STR save or 5 ft push. Extra 1d6 per pt spent. Extra 5 ft pushback per 2 pts spent.",
 	abilitytodamage : function () {
-		return ((subclass == ClassSubList["weaver-sage"]) && (level > 5));
+		return ((subclass == ClassSubList["weaver-sage"]) && (level > 9));
 	},
 };
 
@@ -478,7 +487,7 @@ var SetWeaverSpells = function() {
 		"chain lightning",
 		"mass suggestion",
 		"tenser's transformation",
-		"true seeing",
+		"true seeing"
 	];
 	for (var a = 0; a < wvSp.length; a++) {
 		if (SpellsList[wvSp[a]]) SpellsList[wvSp[a]].classes.push("weaver");

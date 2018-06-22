@@ -35,34 +35,21 @@ Starting at 2nd level, your training and connection to the Weave allows you to p
 
 Your Weave powers may require you to make a spell attack or force your target(s) to make a saving throw. Wisdom is your ability for this feature:
 
-<center>
 **Weave power save DC** = 8 + your proficiency bonus + your Wisdom modifier
 
 **Weave attack modifier** = your proficiency bonus + your Wisdom modifier
-</center>
 
 When casting spells, you use spell points instead of spell slots. Refer to the following table to determine the spell point equivalent of a spell's level:
-
-<div style='column-count:2'>
 
 | Spell Level | Weave Points |
 |:-----------:|:------------:|
 |           1 |            2 |
 |           2 |            3 |
 |           3 |            5 |
-
-| Spell Level | Weave Points |
-|:-----------:|:------------:|
 |           4 |            6 |
 |           5 |            7 |
-|           6 |            9 |
-
-</div>
 
 You also get weave powers, which cost Weave points but are not considered spellcasting. When you level up, you can learn a new spell, up to the spell level denoted in the class table, and can forget one spell you already know and learn a new one. You can have a number of Weave powers up to the number denoted in the class table, and can change which powers you have when you finish a long rest. You cannot select Weaver Powers whose point cost is more than half your level.
-
-### Weave Recovery
-After a short rest, you gain Weave points equal to half your Weaver level + your Wisdom modifier. 
 
 ### Path Selection
 At 3nd level you choose your Path: Guardian, Sentinel, or Sage. Your choice grants you features at 3nd, 5th, 9th, 13th, and 17th level.
@@ -73,11 +60,19 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 ### Extra Attack
 At 5th level, you can make 2 attacks with your attack action.
 
->### Force Blast
->At 6th level, you can create a invisible blast of magical energy as a bonus action. This blast has a range of 60 feet, and does 2d6 force damage. Roll a ranged spell attack and add your Wisdom modifier and proficiency bonus. On a hit, the target must make a strength saving throw of be pushed back 5 feet. You can spend a maximum of 2 Weave Points, and for each point spent, the damage increases by 1d6 and you can push the enemy back an additional 5 feet. You do not have disadvantage if an enemy is within 5 feet.
+### Force Blast
+At 7th level, you can create a invisible blast of magical energy as a bonus action. This blast has a range of 60 feet, and does 2d6 force damage. Roll a ranged spell attack and add your Wisdom modifier and proficiency bonus. On a hit, the target must make a strength saving throw of be pushed back 5 feet. You can spend a maximum of 2 Weave Points, and for each point spent, the damage increases by 1d6 and you can push the enemy back an additional 5 feet. You do not have disadvantage if an enemy is within 5 feet.
 
-### Level 20 feature
-Level 20 feature
+### Level 11 Feature
+
+### Level 15 Feature
+
+### Power Beyond
+When you reach Level 20, you gain access to four 6 level spells. They do not count toward your spells known and do not cost any points to use. However, you can only cast one of the four between long rests, and only once:
+- [Chain Lightning](http://engl393-dnd5th.wikia.com/wiki/Chain_Lightning )
+- [Mass Suggestion](http://engl393-dnd5th.wikia.com/wiki/Mass_Suggestion )
+- [Tenser's Transformation](http://engl393-dnd5th.wikia.com/wiki/Tenser's_Transformation )
+- [True Seeing](http://engl393-dnd5th.wikia.com/wiki/True_Seeing )
 
 <div class='classTable wide'>
 
@@ -85,25 +80,25 @@ Level 20 feature
 | Level | Proficiency Bonus | Features                        | Spells Known | Spell Points | Spell Level | Weave Powers Known |
 |:-----:|:-----------------:|:--------------------------------|:------------:|:------------:|:-----------:|:------------------:|
 | 1st   |                +2 | Sword Training, Cantrips        |            - |            - |           - |                  - |
-| 2nd   |                +2 | Spellcasting, Weave Recovery    |            2 |            4 |           1 |                  1 |
+| 2nd   |                +2 | Spellcasting, Weave Powers      |            2 |            4 |           1 |                  1 |
 | 3rd   |                +2 | Path Selection, Path Feature    |            3 |            6 |           1 |                  1 |
-| 4th   |                +2 | Ability Score Improvement       |            3 |            6 |           2 |                  1 |
+| 4th   |                +2 | Ability Score Improvement       |            3 |            6 |           1 |                  1 |
 | 5th   |                +3 | Extra Attack                    |            4 |           14 |           2 |                  2 |
 | 6th   |                +3 | Path Feature                    |            4 |           14 |           2 |                  2 |
-| 7th   |                +3 | -                               |            5 |           17 |           3 |                  2 |
-| 8th   |                +3 | Ability Score Improvement       |            5 |           17 |           3 |                  3 |
+| 7th   |                +3 | Force Blast                     |            5 |           17 |           2 |                  2 |
+| 8th   |                +3 | Ability Score Improvement       |            5 |           17 |           2 |                  3 |
 | 9th   |                +4 | -                               |            6 |           27 |           3 |                  3 |
-| 10th  |                +4 | Path Feature                    |            6 |           27 |           4 |                  3 |
-| 11th  |                +4 | -                               |            7 |           32 |           4 |                  4 |
-| 12th  |                +4 | Ability Score Improvement       |            7 |           32 |           4 |                  4 |
-| 13th  |                +5 | -                               |            8 |           38 |           5 |                  4 |
-| 14th  |                +5 | Path Feature                    |            8 |           38 |           5 |                  5 |
-| 15th  |                +5 | -                               |            9 |           44 |           5 |                  5 |
-| 16th  |                +5 | Ability Score Improvement       |            9 |           44 |           6 |                  5 |
-| 17th  |                +6 | -                               |           10 |           57 |           6 |                  6 |
-| 18th  |                +6 | Path Feature                    |           10 |           57 |           6 |                  6 |
-| 19th  |                +6 | Ability Score Improvement       |           11 |           64 |           6 |                  6 |
-| 20th  |                +6 | Level 20 Feature                |           11 |           64 |           6 |                  7 |
+| 10th  |                +4 | Path Feature                    |            6 |           27 |           3 |                  3 |
+| 11th  |                +4 | Level 11 Feature                |            7 |           32 |           3 |                  4 |
+| 12th  |                +4 | Ability Score Improvement       |            7 |           32 |           3 |                  4 |
+| 13th  |                +5 | -                               |            8 |           38 |           4 |                  4 |
+| 14th  |                +5 | Path Feature                    |            8 |           38 |           4 |                  5 |
+| 15th  |                +5 | Level 15 Feature                |            9 |           44 |           4 |                  5 |
+| 16th  |                +5 | Ability Score Improvement       |            9 |           44 |           4 |                  5 |
+| 17th  |                +6 | -                               |           10 |           57 |           5 |                  6 |
+| 18th  |                +6 | Path Feature                    |           10 |           57 |           5 |                  6 |
+| 19th  |                +6 | Ability Score Improvement       |           11 |           64 |           5 |                  6 |
+| 20th  |                +6 | Power Beyond                    |           11 |           64 |           5 |                  7 |
 
 </div>
 
@@ -122,15 +117,15 @@ At 14th level you gain proficiency in Constitution saves.
 At 18th level you can make 3 attacks with your attack action.
 
 ### Path of the Sage
-#### Level 3
-At 3rd level, 
+### Superior Attunement
+At 3rd level, you learn a 3rd Cantrip from the Weaver spell list.
+### Weave Recovery
+At 6th level, when you complete short rest, you gain Weave points equal to half your Weaver level + your Wisdom modifier.
 #### Empowered Casting
-At 6th level you add your Widom modifier to the damage of any spell or ability you use.
-#### Level 10
-At 10th level, 
+At 10th level you add your Widom modifier to the damage of any spell or ability you use.
 #### Force of Will
 At 14th level, you gain proficiency in Intelligence and Charisma saves.
-#### Natural Weave
+#### Unlimited Power!
 At 18th level, Weave powers you know that normally cost 2 or fewer weave points to use, do not cost any points to use.
 
 ### Path of the Sentinel
@@ -224,13 +219,6 @@ At 18th level you become proficient in all skills. Also you add your proficiency
 - [Scrying](http://engl393-dnd5th.wikia.com/wiki/Scrying )
 - [Steel Wind Strike](http://engl393-dnd5th.wikia.com/wiki/Steel_Wind_Strike )
 - [Telekinesis](http://engl393-dnd5th.wikia.com/wiki/Telekinesis )
-
-#### 6th Level
-- [Chain Lightning](http://engl393-dnd5th.wikia.com/wiki/Chain_Lightning )
-- [Mass Suggestion](http://engl393-dnd5th.wikia.com/wiki/Mass_Suggestion )
-- [Tenser's Transformation](http://engl393-dnd5th.wikia.com/wiki/Tenser's_Transformation )
-- [True Seeing](http://engl393-dnd5th.wikia.com/wiki/True_Seeing )
-
 
 ### Weave Abilities
 #### 1 pt
