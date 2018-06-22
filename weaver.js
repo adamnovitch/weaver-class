@@ -84,9 +84,9 @@ ClassList.weaver = {
                             "End Affliction",
                             "Manipulate Emotion",
                             "Mind Probe",
-                            "Transfer Emotion"/*,
+                            "Transfer Emotion",
                             "Improve Ability",
-                            "Turn Good/Evil",
+                            "Turn Good or Evil",
                             "Brutal Strike",
                             "Destructive Burst",
                             "Induce Trance",
@@ -98,7 +98,7 @@ ClassList.weaver = {
                             "Break Connection",
                             "Blindsight",
                             "Probe Darkness",
-                            "Clear Mind"*/],
+                            "Clear Mind"],
             "danger sense" : {
                 name : "Danger Sense",
                 description : "\n   " + "(1 point) When I would have to make a dexterity saving throw, I can gain advantage on that saving throw."
@@ -156,7 +156,7 @@ ClassList.weaver = {
                 description : "\n   " + "(2 points) You become immune to the adverse effects of harsh weather for 1 hour. Additionally if you spend an extra 5 pts. you become immune to exhaustion for the next 8 hours."
             },
             "sense emotion" : {
-                name : "Resist Environment",
+                name : "Sense Emotion",
                 description : "\n   " + "(2 points) You attune your senses to pick up the emotions of others for 10 minutes, with concentration. As your action, and as a bonus action on each turn for the duration, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm."
             },
             "battle meditation" : {
@@ -183,6 +183,71 @@ ClassList.weaver = {
                 name : "Transfer Emotion",
                 description : "\n   " + "(3 points) If a spell or ability puts you or an ally under the effect of an emotional condition such as fear, being charmed, etc, you can use this ability to cancel the effect on yourself or ally and redirect it at the hostile creature, which must make a Wisdom save.",
                 action : ["action"," (60 feet)"]
+            },
+            "improve ability" : {
+                name : "Improve Ability",
+                description : "\n   " + "(4 points) You can treat one of your ability scores as if it were increased by 2 (+1) for all ability and skill checks for 1 hour."
+            },
+            "turn good or evil" : {
+                name : "Turn Good or Evil",
+                description : "\n   " + "(4 points) Target Good/Evil aligned creature within 60 feet that you can see must pass a Wisdom saving throw or it has disadvantage on all attack rolls and saving throws for up to 1 minute, and can repeat the save after each of its turns. You can't use Turn Evil if you are Evil aligned, and can't sue Turn Good if you are Good aligned.",
+                action : ["action"," (60 feet)"]
+            },
+            "brutal strike" : {
+                name : "Brutal Strike",
+                description : "\n   " + "(5 points) As a bonus action before you attack, you can double the damage dice of your weapon attacks this turn.",
+                action : ["bonus action"," (before attack)"]
+            },
+            "destructive burst" : {
+                name : "Destructive Burst",
+                description : "\n   " + "(5 points) Choose a point within 60 feet of yourself. Each creature in a 10 foot radius of that point must make a Strength saving throw. On a failure a creature takes 4d6 Thunder damage and is pushed 10 feet away from the point. A creature that succeeds takes half damage and isn't pushed back. If the spell is centered on a creature, that creature has to make a Constitution saving throw or take an additional 2d8 bludgeoning damage, which is considered magical.",
+                action : ["action",""]
+            },
+            "induce trance" : {
+                name : "Induce Trance",
+                description : "\n   " + "(5 points) You can touch a creature and impose a Wisdom saving throw. That creature falls into a deep trance and cannot be awakened unless they take damage or until 1 minute has passed. The creature is considered incapacitated.",
+                action : ["action"," (touch)"]
+            },
+            "protect thoughts" : {
+                name : "Protect Thoughts",
+                description : "\n   " + "(5 points) You become immune to scrying and to any effect that would sense your emotions, read your thoughts, or detect your location for 8 hours."
+            },
+            "resting alertness" : {
+                name : "Resting Alertness",
+                description : "\n   " + "(5 points) You become hyper aware of your surroundings, even while asleep. You have advantage on all perception checks, even while unconscious, and keep all bonuses to your perception and initiative. If you are asleep, you can wake yourself up at will. This does not extend to magical sleep."
+            },
+            "stun" : {
+                name : "Stun",
+                description : "\n   " + "(5 points) As part of a melee attack you can attempt to stun. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.",
+                action : ["action", " (with attack)"]
+            },
+            "bloodlust" : {
+                name : "Bloodlust",
+                description : "\n   " + "(6 points) You can enter a state similar to the Barbarian's rage. This state lasts for a minute and requires concentration, and ends if you lose concentation or go for 1 round without making an attack. While in this state you add half your proficiency bonus to your weapon attack damage rolls, and you resist nonmagical bludgeoning, piercing, and slashing damage.",
+                action : ["bonus action", ""]
+            },
+            "resist trauma" : {
+                name : "Resist Trauma",
+                description : "\n   " + "(6 points) As a reaction, when you would have to make an Intelligence, Wisdom, or Charisma saving throw against an illusion or an effect that would frighten you, you have advantage on that saving throw. If you pass the save, you are immune to illusion and fear for the next hour.",
+                action : ["reaction", ""]
+            },
+            "break connection" : {
+                name : "Break Connection",
+                description : "\n   " + "(7 points) Target must make a Wisdom saving throw. On a failure, the target cannot cast spells or use spell-like abilities for one minute. At the end of each of the the creature's turns it can attempt to make the save again.",
+                action : ["action", " (60 feet)"]
+            },
+            "blindsight" : {
+                name : "Blindsight",
+                description : "\n   " + "(8 points) You gain Blindsight to a distance of 120 feet for 1 hour."
+            },
+            "probe darkness" : {
+                name : "Probe Darkness",
+                description : "\n   " + "(8 points) A stronger version of detect thoughts, you are able to go deep into the subconscious of your victim to release some of their deepest fears and trauma. Target must make a Wisdom saving throw. On a failure they take 10d8 psychic damage, half on a success. If they fail you learn one fear/trauma of the target. Subsequent psychic attacks do an extra 2d8 damage on the target. Target is immune to this ability for the next 24 hours, and if a target is affected by this again, you learn no new information and the damage is only 8d6.",
+                action : ["action", " (30 feet)"]
+            },
+            "clear mind" : {
+                name : "Clear Mind",
+                description : "\n   " + "(9 points) You automatically succeed any Intelligence, Wisdom, or Charisma saving throw for the next 8 hours."
             }
         },
 		"path-selection" : {
