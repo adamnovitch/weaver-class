@@ -1,0 +1,275 @@
+# Weaver 2.0
+## Class Features
+As a Weaver, you gain the following class features
+#### Hit Points
+___
+- **Hit Dice:** 1d8 per Weaver level
+- **Hit Points at 1st Level:** 8 + your Constitution modifier
+- **Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per Weaver level after 1st
+
+#### Proficiencies
+___
+- **Armor:** Light armor, Medium Armor
+- **Weapons:** Simple weapons, Longswords, Scimitars, Shortswords, Longbows
+- **Tools:** One artisan's tools of your choice
+
+___
+- **Saving Throws:** Strength, Wisdom
+- **Skills:** Choose two from Acrobatics, Athletics, Arcana, Religion, Perception
+
+#### Equipment
+You start with the following equipment, in addition to the equipment granted by your background:
+- *(a)* a Martial Melee Weapon or *(b)* a Longbow and (20) arrows
+- *(a)* a Martial Melee Weapon or *(b)* any simple melee weapon
+- Leather Armor
+- *(a)* a Scholar's Pack or *(b)* an Explorer's Pack
+
+### Sword Training
+As a Weaver, your training involved proficiency in smaller and medium swords. While you are holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction you can increase your AC by 2 to possibly deflect one incoming weapon attack.
+
+### Cantrips
+At first level, you can choose 2 Weaver Cantrips from the Weaver spell list. You know these two Cantrips and always have them prepared.
+
+### Spellcasting and Weave Points
+Starting at 2nd level, your training and connection to the Weave allows you to perform feats and cast spells. Your access to the Weave is measured in Weave Points. Your number of Weave Points are determined in the class table. They are regained after a long rest.
+
+Your Weave powers may require you to make a spell attack or force your target(s) to make a saving throw. Wisdom is your ability for this feature:
+
+<center>
+**Weave power save DC** = 8 + your proficiency bonus + your Wisdom modifier
+
+**Weave attack modifier** = your proficiency bonus + your Wisdom modifier
+</center>
+
+When casting spells, you use spell points instead of spell slots. Refer to the following table to determine the spell point equivalent of a spell's level:
+
+<div style='column-count:2'>
+
+| Spell Level | Weave Points |
+|:-----------:|:------------:|
+|           1 |            2 |
+|           2 |            3 |
+|           3 |            5 |
+
+| Spell Level | Weave Points |
+|:-----------:|:------------:|
+|           4 |            6 |
+|           5 |            7 |
+|           6 |            9 |
+
+</div>
+
+You also get weave powers, which cost Weave points but are not considered spellcasting. When you level up, you can learn a new spell, up to the spell level denoted in the class table, and can forget one spell you already know and learn a new one. You can have a number of Weave powers up to the number denoted in the class table, and can change which powers you have when you finish a long rest. You cannot select Weaver Powers whose point cost is more than half your level.
+
+### Weave Recovery
+After a short rest, you gain Weave points equal to half your Weaver level + your Wisdom modifier. 
+
+### Path Selection
+At 3nd level you choose your Path: Guardian, Sentinel, or Sage. Your choice grants you features at 3nd, 5th, 9th, 13th, and 17th level.
+
+### Ability Score Improvement
+When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.
+
+### Extra Attack
+At 5th level, you can make 2 attacks with your attack action.
+
+>### Force Blast
+>At 6th level, you can create a invisible blast of magical energy as a bonus action. This blast has a range of 60 feet, and does 2d6 force damage. Roll a ranged spell attack and add your Wisdom modifier and proficiency bonus. On a hit, the target must make a strength saving throw of be pushed back 5 feet. You can spend a maximum of 2 Weave Points, and for each point spent, the damage increases by 1d6 and you can push the enemy back an additional 5 feet. You do not have disadvantage if an enemy is within 5 feet.
+
+### Level 20 feature
+Level 20 feature
+
+<div class='classTable wide'>
+
+##### The Weaver
+| Level | Proficiency Bonus | Features                        | Spells Known | Spell Points | Spell Level | Weave Powers Known |
+|:-----:|:-----------------:|:--------------------------------|:------------:|:------------:|:-----------:|:------------------:|
+| 1st   |                +2 | Sword Training, Cantrips        |            - |            - |           - |                  - |
+| 2nd   |                +2 | Spellcasting, Weave Recovery    |            2 |            4 |           1 |                  1 |
+| 3rd   |                +2 | Path Selection, Path Feature    |            3 |            6 |           1 |                  1 |
+| 4th   |                +2 | Ability Score Improvement       |            3 |            6 |           2 |                  1 |
+| 5th   |                +3 | Extra Attack                    |            4 |           14 |           2 |                  2 |
+| 6th   |                +3 | Path Feature                    |            4 |           14 |           2 |                  2 |
+| 7th   |                +3 | -                               |            5 |           17 |           3 |                  2 |
+| 8th   |                +3 | Ability Score Improvement       |            5 |           17 |           3 |                  3 |
+| 9th   |                +4 | -                               |            6 |           27 |           3 |                  3 |
+| 10th  |                +4 | Path Feature                    |            6 |           27 |           4 |                  3 |
+| 11th  |                +4 | -                               |            7 |           32 |           4 |                  4 |
+| 12th  |                +4 | Ability Score Improvement       |            7 |           32 |           4 |                  4 |
+| 13th  |                +5 | -                               |            8 |           38 |           5 |                  4 |
+| 14th  |                +5 | Path Feature                    |            8 |           38 |           5 |                  5 |
+| 15th  |                +5 | -                               |            9 |           44 |           5 |                  5 |
+| 16th  |                +5 | Ability Score Improvement       |            9 |           44 |           6 |                  5 |
+| 17th  |                +6 | -                               |           10 |           57 |           6 |                  6 |
+| 18th  |                +6 | Path Feature                    |           10 |           57 |           6 |                  6 |
+| 19th  |                +6 | Ability Score Improvement       |           11 |           64 |           6 |                  6 |
+| 20th  |                +6 | Level 20 Feature                |           11 |           64 |           6 |                  7 |
+
+</div>
+
+## Weaver Paths
+
+### Path of the Guardian
+#### Fighter Training
+At 3rd level, you gain proficiency in Heavy Armor. You may also choose a fighting style from the following: Defense, Dueling, Great Weapon Master, Two-Weapon Fighting.
+#### Action Surge
+At 6th level, once per short rest you can take an additional action on your turn.
+#### Indomitable
+Beginning at 10th level, you can re-roll a saving throw that you fail. If you do so, you must use the new roll. You can use this feature twice per long rest.
+#### Supreme Fortitude
+At 14th level you gain proficiency in Constitution saves.
+#### Flurry attack
+At 18th level you can make 3 attacks with your attack action.
+
+### Path of the Sage
+#### Level 3
+At 3rd level, 
+#### Empowered Casting
+At 6th level you add your Widom modifier to the damage of any spell or ability you use.
+#### Level 10
+At 10th level, 
+#### Force of Will
+At 14th level, you gain proficiency in Intelligence and Charisma saves.
+#### Natural Weave
+At 18th level, Weave powers you know that normally cost 2 or fewer weave points to use, do not cost any points to use.
+
+### Path of the Sentinel
+#### Jack of All Trades
+At 2nd level, you add half your proficiency bonus to any ability or skill check you would not add your proficiency bonus to.
+#### Expertise
+At 6th level, Choose two skills in which you are proficient, you use double your proficiency bonus for those skill checks.
+#### Passive Skill
+At 10th level When you would roll a skill check, you can instead take a result of 10 on the die roll.
+#### Evasiveness
+At 14th level You gain proficiency in Dexterity saves.
+#### Master of All
+At 18th level you become proficient in all skills. Also you add your proficiency bonus to all ability checks.
+
+### Spell List
+#### Cantrip
+- Mage Hand
+- Guidance
+- Resistance
+- Friends
+- Message
+- Spare the Dying
+
+#### 1st Level
+- Absorb Elements
+- Animal Friendship
+- Bless
+- Catapult
+- Charm Person
+- Command
+- Compelled Duel
+- Cure Wounds
+- Detect Evil and Good
+- Detect Magic
+- Disguise Self
+- Divine Favor
+- Expeditious Retreat
+- Feather Fall
+- Healing Word
+- Jump
+- Longstrider
+- Sanctuary
+- Shield
+- Shield of Faith
+- Thunderwave
+- Witch Bolt
+- Zephyr Strike
+
+#### 2nd Level
+- Aid
+- Blindness/Deafness
+- Blur
+- Detect Thoughts
+- Enhance Ability
+- Enlarge
+- Hold Person
+- Knock
+- Lesser Restoration
+- Magic Weapon
+- Mind Spike
+- Pass Without a Trace
+- Purify Food and Drink
+- Silence
+- Suggestion
+- Zone of Truth
+
+#### 3rd Level
+- Blink
+- Haste
+- Lightningbolt
+- Life Transferrence
+- Mass Healing Word
+- Nondetection
+- Revivify
+- Tongues
+
+#### 4th Level
+- Charm Monster
+- Confusion
+- Death Ward
+- Divination
+- Dominate Beast
+- Locate Creature
+- Freedom of Movement
+
+#### 5th Level
+- Greater Restoration
+- Hold Monster
+- Mass Cure Wounds
+- Mislead
+- Scrying
+- Steel Wind Strike
+- Telekinesis
+
+#### 6th Level
+- Chain Lightning
+- Mass Suggestion
+- Tenser's Transformation
+- True Seeing
+
+
+### Weave Abilities
+#### 1 pt
+- **Danger Sense** When you would have to make a dexterity saving throw, you can gain advantage on that saving throw.
+- **Event Focus** By concentrating for 10 minutes, you open your senses to you surroundings. While concentrating, you can find any event occurring within 1 mile of your position. For every additional 2 points you spend on this ability you can double the range.
+- **Focus Skill** Add half your proficiency bonus to the next skill check you make.
+- **Helping Hand** As a bonus action, you can use the Help action to aid an ally within 30 feet.
+- **Mind Meld** As a bonus action, you can communicate telepathically with one willing creature you can see within 120 feet of you. The target must have an	Intelligence of at least 2,	otherwise this ability fails and the action is wasted. This communication can occur until the end of the current turn. You don’t need to share a language with the target for it to understand your telepathic utterances, and it understands you even if it lacks a language. You also gain access to one memory of the target’s choice, gaining perfect recall of one thing it saw or did.
+- **Past Sense** By focusing for 1 minute at a location, you can gain an accurate understanding of any events that occurred at that spot within the past day. For every additional 2 points you spend on this ability you can double the time.
+- **Strong Strike** Gain proficiency in unarmed strikes for this turn, your damage dice for your unarmed strikes and weapon attacks depends on your proficiency bonus (+2 use d4, +3 use d6, +4 use d8, +5 use d10, +6 use d12).
+#### 2 pts
+- **Brain Teasing** Target creature must make a wisdom save, taking 3d6 psychic damage on a failure, half on a success. It also becomes frightened if it fails. 
+- **Deflect Weapons** When hit by a weapon attack, you can reduce damage by 1d8 + Weaver Level.
+- **Patient Defense** You can take the Dodge action as a bonus action.
+- **Resist Environment** You become immune to the adverse effects of harsh weather for 1 hour. Additionally if you spend an extra 5 pts. you become immune to exhaustion for the next 8 hours.
+- **Sense Emotion** You attune your senses to pick up the emotions of others for 10 minutes, with concentration. As your action, and as a bonus action on each turn for the duration, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm.
+#### 3 pts
+- **Battle Meditation** As a bonus action, you can grant yourself advantage on your next weapon attack.
+- **End Affliction** You can use this ability as an action to end one effect on yourself that is causing you to be frightened.
+- **Manipulate Emotion** As an action, you can choose 1 target you can see within 30 feet. You can attempt to change their emotional state. The creature can attempt a Wisdom saving throw to resist the effect. For every extra point you use towards this ability, you can attempt to use this ability on one additional creature within range. You can make the target creature(s) frightened, or you can make it friendly towards you and/or hostile towards their allies.
+- **Superior Mind Meld** Use your mind meld with a range of touch on an unwilling creature, which must make a Wisdom saving throw to avoid the effect.
+- **Transfer Emotion** If a spell or ability puts you or an ally under the effect of an emotional condition such as fear, being charmed, etc, you can use this ability to cancel the effect on yourself or ally and redirect it at the hostile creature.
+#### 4 pts
+- **Improve Ability** You can treat one of your ability scores as if it were increased by 2 (+1) for all ability and skill checks for 1 hour.
+- **Turn Good/Evil** Target Good/Evil aligned creature must pass a Wisdom saving throw or it has disadvantage on all attack rolls and saving throws for up to 1 minute, and can repeat the save after each of it's turns. You can't use Turn Evil if you are Evil aligned, and can't sue Turn Good if you are Good aligned.
+#### 5 pts
+- **Brutal Strike** As a bonus action before you attack, you can double the damage dice of your weapon attack.
+- **Destructive Burst** Choose a point within 60 feet of yourself. Each creature in a 10 foot radius of that point must make a Strength saving throw. On a failure a creature takes 4d6 Thunder damage and is pushed 10 feet away from the point. A creature that succeeds takes half damage and isn't pushed back. If the spell is centered on a creature, that creature has to make a Constitution saving throw or take an additional 2d8 bludgeoning damage, which is considered magical.
+- **Induce Trance** You can touch a creature and impose a Wisdom saving throw. That creature falls into a deep trance and cannot be awakened unless they take damage or until 1 minute has passed. The creature is considered incapacitated.
+- **Protect Thoughts** You become immune to scrying and to any effect that would sense your emotions, read your thoughts, or detect your location for 8 hours.
+- **Resting Alertness** You become hyper aware of your surroundings, even while asleep. You have advantage on all perception checks, even while unconscious, and keep all bonuses to your perception and initiative. If you are asleep, you can wake yourself up as a bonus action. This does not extend to magical sleep.
+- **Stun** As part of a melee attack you can attempt to stun. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.
+#### 6 pts
+- **Bloodlust** You can enter a state similar to the Barbarian's rage. This state lasts for a minute and requires concentration, and ends if you lose concentation or go for 1 round without making an attack. While in this state you add half your proficiency bonus to your weapon attack damage rolls, and you resist nonmagical bludgeoning, piercing, and slashing damage.
+- **Resist Trauma** As a reaction, when you would have to make an Intelligence, Wisdom, or Charisma saving throw against an illusion or an effect that would frighten you, you have advantage on that saving throw. If you pass the save, you are immune to illusion and fear for the next hour.
+#### 7 pts
+- **Break Connection** Target must make a Wisdom saving throw. On a failure, the target cannot cast spells or use spell-like abilities until they complete a long rest.
+#### 8 pts
+- **Blindsight** As a bonus action, you gain Blindsight to a distance of 120 feet for 1 hour.
+- **Probe Darkness** A stronger version of detect thoughts, you are able to go deep into the subconscious of your victim to release some of their deepest fears and trauma. Target must make a Wisdom saving throw. On a failure they take 10d8 psychic damage, half on a success. If they fail you learn one fear/trauma of the target. Subsequent psychic attacks do an extra 2d8 damage on the target. Target is immune to this ability for the next 24 hours, and if a target is affected by this again, you learn no new information and the damage is only 8d6.
+#### 9 pts
+- **Clear Mind** You automatically succeed any Intelligence, Wisdom, or Charisma saving throw for the next 8 hours.
