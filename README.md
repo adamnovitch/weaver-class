@@ -147,89 +147,89 @@ At 18th level you become proficient in all skills. Also you add your proficiency
 
 ### Spell List
 #### Cantrip
-- Mage Hand
-- Guidance
-- Resistance
-- Friends
-- Message
-- Spare the Dying
+- [Friends](http://engl393-dnd5th.wikia.com/wiki/Friends )
+- [Guidance](http://engl393-dnd5th.wikia.com/wiki/Guidance )
+- [Mage Hand](http://engl393-dnd5th.wikia.com/wiki/Mage_Hand )
+- [Message](http://engl393-dnd5th.wikia.com/wiki/Message )
+- [Resistance](http://engl393-dnd5th.wikia.com/wiki/Resistance )
+- [Spare the Dying](http://engl393-dnd5th.wikia.com/wiki/Spare_the_Dying )
 
 #### 1st Level
-- Absorb Elements
-- Animal Friendship
-- Bless
-- Catapult
-- Charm Person
-- Command
-- Compelled Duel
-- Cure Wounds
-- Detect Evil and Good
-- Detect Magic
-- Disguise Self
-- Divine Favor
-- Expeditious Retreat
-- Feather Fall
-- Healing Word
-- Jump
-- Longstrider
-- Sanctuary
-- Shield
-- Shield of Faith
-- Thunderwave
-- Witch Bolt
-- Zephyr Strike
+- [Absorb Elements](http://engl393-dnd5th.wikia.com/wiki/Absorb_Emements )
+- [Animal Friendship](http://engl393-dnd5th.wikia.com/wiki/Animal_Friendship )
+- [Bless](http://engl393-dnd5th.wikia.com/wiki/Bless )
+- [Catapult](http://engl393-dnd5th.wikia.com/wiki/Catapult )
+- [Charm Person](http://engl393-dnd5th.wikia.com/wiki/Charm_Person )
+- [Command](http://engl393-dnd5th.wikia.com/wiki/Command )
+- [Compelled Duel](http://engl393-dnd5th.wikia.com/wiki/Compelled_Duel )
+- [Cure Wounds](http://engl393-dnd5th.wikia.com/wiki/Cure_Wounds )
+- [Detect Evil and Good](http://engl393-dnd5th.wikia.com/wiki/Detect_Evil_and_Good )
+- [Detect Magic](http://engl393-dnd5th.wikia.com/wiki/Detect_Magic )
+- [Disguise Self](http://engl393-dnd5th.wikia.com/wiki/Disguise_Self )
+- [Divine Favor](http://engl393-dnd5th.wikia.com/wiki/Divine_Favor )
+- [Expeditious Retreat](http://engl393-dnd5th.wikia.com/wiki/Expeditious_Retreat )
+- [Feather Fall](http://engl393-dnd5th.wikia.com/wiki/Feather_Fall )
+- [Healing Word](http://engl393-dnd5th.wikia.com/wiki/Healing_Word )
+- [Jump](http://engl393-dnd5th.wikia.com/wiki/Jump )
+- [Longstrider](http://engl393-dnd5th.wikia.com/wiki/Longstrider )
+- [Sanctuary](http://engl393-dnd5th.wikia.com/wiki/Sanctuary )
+- [Shield](http://engl393-dnd5th.wikia.com/wiki/Shield )
+- [Shield of Faith](http://engl393-dnd5th.wikia.com/wiki/Shield_of_Faith )
+- [Thunderwave](http://engl393-dnd5th.wikia.com/wiki/Thunderwave )
+- [Witch Bolt](http://engl393-dnd5th.wikia.com/wiki/Witch_Bolt )
+- [Zephyr Strike](http://engl393-dnd5th.wikia.com/wiki/Zephyr_Strike )
 
 #### 2nd Level
-- Aid
-- Blindness/Deafness
-- Blur
-- Detect Thoughts
-- Enhance Ability
-- Enlarge
-- Hold Person
-- Knock
-- Lesser Restoration
-- Magic Weapon
-- Mind Spike
-- Pass Without a Trace
-- Purify Food and Drink
-- Silence
-- Suggestion
-- Zone of Truth
+- [Aid](http://engl393-dnd5th.wikia.com/wiki/Aid )
+- [Blindness/Deafness](http://engl393-dnd5th.wikia.com/wiki/Blindness/Deafness )
+- [Blur](http://engl393-dnd5th.wikia.com/wiki/Blur )
+- [Detect Thoughts](http://engl393-dnd5th.wikia.com/wiki/Detect_Thoughts )
+- [Enhance Ability](http://engl393-dnd5th.wikia.com/wiki/Enhance_Ability )
+- [Enlarge](http://engl393-dnd5th.wikia.com/wiki/Enlarge/Reduce )
+- [Hold Person](http://engl393-dnd5th.wikia.com/wiki/Hold_Person )
+- [Knock](http://engl393-dnd5th.wikia.com/wiki/Knock )
+- [Lesser Restoration](http://engl393-dnd5th.wikia.com/wiki/Lesser_Restoration )
+- [Magic Weapon](http://engl393-dnd5th.wikia.com/wiki/Magic_Weapon )
+- [Mind Spike](http://engl393-dnd5th.wikia.com/wiki/Mind_Spike )
+- [Pass Without a Trace](http://engl393-dnd5th.wikia.com/wiki/Pass_Without_a_Trace )
+- [Purify Food and Drink](http://engl393-dnd5th.wikia.com/wiki/Purify_Food_and_Drink )
+- [Silence](http://engl393-dnd5th.wikia.com/wiki/Silence )
+- [Suggestion](http://engl393-dnd5th.wikia.com/wiki/Suggestion )
+- [Zone of Truth](http://engl393-dnd5th.wikia.com/wiki/Zone_of_Truth )
 
 #### 3rd Level
-- Blink
-- Haste
-- Lightningbolt
-- Life Transferrence
-- Mass Healing Word
-- Nondetection
-- Revivify
-- Tongues
+- [Blink](http://engl393-dnd5th.wikia.com/wiki/Blink )
+- [Haste](http://engl393-dnd5th.wikia.com/wiki/Haste )
+- [Lightningbolt](http://engl393-dnd5th.wikia.com/wiki/Lightningbolt )
+- [Life Transferrence](http://engl393-dnd5th.wikia.com/wiki/Life_Transferrence )
+- [Mass Healing Word](http://engl393-dnd5th.wikia.com/wiki/Mass_Healing_Word )
+- [Nondetection](http://engl393-dnd5th.wikia.com/wiki/Nondetection )
+- [Revivify](http://engl393-dnd5th.wikia.com/wiki/Revivify )
+- [Tongues](http://engl393-dnd5th.wikia.com/wiki/Tongues )
 
 #### 4th Level
-- Charm Monster
-- Confusion
-- Death Ward
-- Divination
-- Dominate Beast
-- Locate Creature
-- Freedom of Movement
+- [Charm Monster](http://engl393-dnd5th.wikia.com/wiki/Charm_Monster )
+- [Confusion](http://engl393-dnd5th.wikia.com/wiki/Confusion )
+- [Death Ward](http://engl393-dnd5th.wikia.com/wiki/Death_Ward )
+- [Divination](http://engl393-dnd5th.wikia.com/wiki/Divination )
+- [Dominate Beast](http://engl393-dnd5th.wikia.com/wiki/Dominate_Beast )
+- [Locate Creature](http://engl393-dnd5th.wikia.com/wiki/Locate_Creature )
+- [Freedom of Movement](http://engl393-dnd5th.wikia.com/wiki/Freedom_of_Movement )
 
 #### 5th Level
-- Greater Restoration
-- Hold Monster
-- Mass Cure Wounds
-- Mislead
-- Scrying
-- Steel Wind Strike
-- Telekinesis
+- [Greater Restoration](http://engl393-dnd5th.wikia.com/wiki/Greater_Restoration )
+- [Hold Monster](http://engl393-dnd5th.wikia.com/wiki/Hold_Monster )
+- [Mass Cure Wounds](http://engl393-dnd5th.wikia.com/wiki/Mass_Cure_Wounds )
+- [Mislead](http://engl393-dnd5th.wikia.com/wiki/Mislead )
+- [Scrying](http://engl393-dnd5th.wikia.com/wiki/Scrying )
+- [Steel Wind Strike](http://engl393-dnd5th.wikia.com/wiki/Steel_Wind_Strike )
+- [Telekinesis](http://engl393-dnd5th.wikia.com/wiki/Telekinesis )
 
 #### 6th Level
-- Chain Lightning
-- Mass Suggestion
-- Tenser's Transformation
-- True Seeing
+- [Chain Lightning](http://engl393-dnd5th.wikia.com/wiki/Chain_Lightning )
+- [Mass Suggestion](http://engl393-dnd5th.wikia.com/wiki/Mass_Suggestion )
+- [Tenser's Transformation](http://engl393-dnd5th.wikia.com/wiki/Tenser's_Transformation )
+- [True Seeing](http://engl393-dnd5th.wikia.com/wiki/True_Seeing )
 
 
 ### Weave Abilities
