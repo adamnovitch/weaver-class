@@ -11,6 +11,11 @@ RequiredSheetVersion(12.999);
 //    date : "2018/6/8"
 //};
 
+/* missing:
+- source [an:wv]
+- abilitySaveAlt [1]
+*/
+
 ClassList.weaver = {
     regExpSearch : /eaver/i,
     name : "Weaver",
@@ -20,14 +25,16 @@ ClassList.weaver = {
     improvements : [0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5],
     die : 8,
     saves : ["Str", "Wis"],
-    skills : ["\n\n" + toUni("Weaver") + ": Choose two from Acrobatics, Arcana, Athletics, Religion, and Perception."],
+    skills : ["\n\n" + toUni("Weaver") + ": Choose two from Arcana, Athletics, Insight, Perception, and Persuasion."],
     toolProfs : {
         primary : [["One Artisan's Tool of you choice",1]]
     },
     armor : [
+        [true, true, false, false],
         [true, true, false, false]
     ],
     weapons : [
+        [true, false, ["shortsword","scimitar","longsword","longbow"] ],
         [true, false, ["shortsword","scimitar","longsword","longbow"] ]
     ],
     equipment : "Weaver starting equipment:\n \u2022 Leather Armor;\n \u2022 A martial weapon -or- a simple weapon;\n \u2022 A longbow and 20 arrows -or- a martial melee weapon;\n \u2022 An explorer's pack.\n\nAlternatively, choose 5d4 \xD7 10 gp worth of starting equipment instead of both the class' and the background's starting equipment.",
