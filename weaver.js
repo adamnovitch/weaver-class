@@ -4,11 +4,11 @@ var iFileName = "Weaver.js";
 RequiredSheetVersion(12.999);
 
 //sourceList["AN:WV"] = {
-//	name : "adn0v: Weaver Class",
-//	abbreviation : "an:wv",
-//	group : "adn0v Homebrew",
-//	url : "https://www.gmbinder.com/share/-LEHdRqAQc4x9T0zgUNT",
-//	date : "2018/6/8"
+//    name : "adn0v: Weaver Class",
+//    abbreviation : "an:wv",
+//    group : "adn0v Homebrew",
+//    url : "https://www.gmbinder.com/share/-LEHdRqAQc4x9T0zgUNT",
+//    date : "2018/6/8"
 //};
 
 ClassList.weaver = {
@@ -159,7 +159,7 @@ ClassList.weaver = {
             },
             "mind meld" : {
                 name : "Mind Meld",
-                description : "\n   " + "(1 point) As a bonus action, you can communicate telepathically with one willing creature you can see within 120 feet of you. The target must have an	Intelligence of at least 2,	otherwise this ability fails and the action is wasted. This communication can occur until the end of the current turn. You don’t need to share a language with the target for it to understand your telepathic utterances, and it understands you even if it lacks a language. You also gain access to one memory of the target’s choice, gaining perfect recall of one thing it saw or did.",
+                description : "\n   " + "(1 point) As a bonus action, you can communicate telepathically with one willing creature you can see within 120 feet of you. The target must have an    Intelligence of at least 2,    otherwise this ability fails and the action is wasted. This communication can occur until the end of the current turn. You don’t need to share a language with the target for it to understand your telepathic utterances, and it understands you even if it lacks a language. You also gain access to one memory of the target’s choice, gaining perfect recall of one thing it saw or did.",
                 action : ["bonus action", " (120 feet)"]
             },
             "past sense" : {
@@ -184,7 +184,7 @@ ClassList.weaver = {
             },
             "deflect weapons" : {
                 name : "Deflect Weapons",
-                description : "\n   " + "(2 points) When hit by a weapon attack, you can reduce damage by 1d8 + Weaver Level.",
+                description : "\n   " + "(2 points) When hit by a weapon attack, you can reduce damage by 1d10 + WIS + Weaver Level. Then if that damage is reduced to zero I can make one melee attack at that enemy",
                 action : ["reaction",""]
             },
             "patient defense" : {
@@ -291,246 +291,246 @@ ClassList.weaver = {
                 description : "\n   " + "(9 points) You automatically succeed any Intelligence, Wisdom, or Charisma saving throw for the next 8 hours."
             }
         },
-		"path-selection" : {
-			name : "Weaver Path",
-			minlevel : 3,
-			description : "\n   " + "Choose a Weaver Path and put it in the \"Class\" field, choices are: Guardian, Sage, or Sentinel"
-		},
-		"x-attack" : {
-			name : "Extra Attack",
-			minlevel : 5,
-			description : "\n   " + "I make 2 attacks with my attack action"
-		},
-		"power-beyond" : {
-			name : "Power Beyond",
-			minlevel : 20,
-			description : "\n   " + "You learn 4 6th level spells. You can cast one of them once between long rests.",
+        "path-selection" : {
+            name : "Weaver Path",
+            minlevel : 3,
+            description : "\n   " + "Choose a Weaver Path and put it in the \"Class\" field, choices are: Guardian, Sage, or Sentinel"
+        },
+        "x-attack" : {
+            name : "Extra Attack",
+            minlevel : 5,
+            description : "\n   " + "I make 2 attacks with my attack action"
+        },
+        "power-beyond" : {
+            name : "Power Beyond",
+            minlevel : 20,
+            description : "\n   " + "You learn 4 6th level spells. You can cast one of them once between long rests.",
             spellcastingExtra : ["chain lightning","mass suggestion","tenser's transformation","true seeing"]
-		}
-	}	
+        }
+    }    
 };
 
 ClassSubList["weaver-guardian"] = {
-	regExpSearch : /uardian/i,
-	subname : "Path of the Guardian",
-	attacks : [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3],
-	features : {
-		"subclassfeature3" : {
-			name : "Fighting Style",
-			minlevel : 3,
-			description : "\n   " + "Choose a Fighting Style for the fighter using the \"Choose Feature\" button above",
-			choices : ["Defense", "Dueling", "Great Weapon Fighting", "Two-Weapon Fighting"],
-			"defense" : FightingStyles.defense,
-			"dueling" : FightingStyles.dueling,
-			"great weapon fighting" : FightingStyles.great_weapon,
-			"two-weapon fighting" : FightingStyles.two_weapon
-		},
-		"subclassfeature3.1" : {
-			name : "Armor Training",
-			minlevel : 3,
-			description : "\n   " + "I gain proficiency with heavy armor",
-			armor : [true, true, true, false]
-		},
-		"subclassfeature6" : {
-			name : "Action Surge",
-			minlevel : 6,
-			description : "\n   " + "I can take one additional action on my turn on top of my normally allowed actions",
-			usages : [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-			recovery : "short rest"
-		},
-		"subclassfeature10" : {
-			name : "Indomitable",
-			minlevel : 10,
-			description : "\n   " + "I can reroll a failed saving throw, but must keep the new result",
-			usages : [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
-			recovery : "long rest"
-		},
-		"subclassfeature14" : {
-			name : "Supreme Fortitude",
-			minlevel : 14,
-			description : "\n   " + "I gain proficiency in CON saves",
-			saves : ["Str", "Con", "Wis"]
-		},
-		"subclassfeature18" : {
-			name : "Flurry Attack",
-			minlevel : 18,
-			description : "\n   " + "I make 3 attacks with my attack action"
-		}
-	}
+    regExpSearch : /uardian/i,
+    subname : "Path of the Guardian",
+    attacks : [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3],
+    features : {
+        "subclassfeature3" : {
+            name : "Fighting Style",
+            minlevel : 3,
+            description : "\n   " + "Choose a Fighting Style for the fighter using the \"Choose Feature\" button above",
+            choices : ["Defense", "Dueling", "Great Weapon Fighting", "Two-Weapon Fighting"],
+            "defense" : FightingStyles.defense,
+            "dueling" : FightingStyles.dueling,
+            "great weapon fighting" : FightingStyles.great_weapon,
+            "two-weapon fighting" : FightingStyles.two_weapon
+        },
+        "subclassfeature3.1" : {
+            name : "Armor Training",
+            minlevel : 3,
+            description : "\n   " + "I gain proficiency with heavy armor",
+            armor : [true, true, true, false]
+        },
+        "subclassfeature6" : {
+            name : "Action Surge",
+            minlevel : 6,
+            description : "\n   " + "I can take one additional action on my turn on top of my normally allowed actions",
+            usages : [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            recovery : "short rest"
+        },
+        "subclassfeature10" : {
+            name : "Indomitable",
+            minlevel : 10,
+            description : "\n   " + "I can reroll a failed saving throw, but must keep the new result",
+            usages : [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+            recovery : "long rest"
+        },
+        "subclassfeature14" : {
+            name : "Supreme Fortitude",
+            minlevel : 14,
+            description : "\n   " + "I gain proficiency in CON saves",
+            saves : ["Str", "Con", "Wis"]
+        },
+        "subclassfeature18" : {
+            name : "Flurry Attack",
+            minlevel : 18,
+            description : "\n   " + "I make 3 attacks with my attack action"
+        }
+    }
 };
 
 ClassSubList["weaver-sage"] = {
-	regExpSearch : /age/i,
-	subname : "Path of the Sage",
-	features : {
-		"subclassfeature3" : {
-			name : "Extra Cantrip",
-			minlevel : 3,
-			description : "\n   " + "I learn a 3rd cantrip",
-			spellcastingKnown : {
+    regExpSearch : /age/i,
+    subname : "Path of the Sage",
+    features : {
+        "subclassfeature3" : {
+            name : "Extra Cantrip",
+            minlevel : 3,
+            description : "\n   " + "I learn a 3rd cantrip",
+            spellcastingKnown : {
                 cantrips : levels.map(function (n) { return n < 2 ? 0 : 3; }),
                 spells : [0, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11]
             }
-		},
-		"subclassfeature6" : {
-			name : "Mana Recovery",
-			minlevel : 6,
-			description : "\n   " + "During a short rest, I can recover a number mana points equal to half my weaver level (rounded up) + WIS modifier",
-			additional : levels.map(function (n) {
-				return (Math.ceil(n / 2)) + " + WIS mana points";
-			})
-		},
-		"subclassfeature10" : {
-			name : "Enhanced Magic",
-			minlevel : 10,
-			description : "\n   " + "I can add my Wisdom modifier to the damage roll of any spell or weave ability I use"
-		},
-		"subclassfeature14" : {
-			name : "Force of Will",
-			minlevel : 14,
-			description : "\n   " + "I gain proficiency in INT and CHA saves",
-			saves : ["Str", "Int", "Wis", "Cha"]
-		},
-		"subclassfeature18" : {
-			name : "Unlimited Power!",
-			minlevel : 18,
-			description : "\n   " + "At 18th level, Weave powers I know that normally cost 2 or fewer weave points to use, do not cost any points to use"
+        },
+        "subclassfeature6" : {
+            name : "Mana Recovery",
+            minlevel : 6,
+            description : "\n   " + "During a short rest, I can recover a number mana points equal to half my weaver level (rounded up) + WIS modifier",
+            additional : levels.map(function (n) {
+                return (Math.ceil(n / 2)) + " + WIS mana points";
+            })
+        },
+        "subclassfeature10" : {
+            name : "Enhanced Magic",
+            minlevel : 10,
+            description : "\n   " + "I can add my Wisdom modifier to the damage roll of any spell or weave ability I use"
+        },
+        "subclassfeature14" : {
+            name : "Force of Will",
+            minlevel : 14,
+            description : "\n   " + "I gain proficiency in INT and CHA saves",
+            saves : ["Str", "Int", "Wis", "Cha"]
+        },
+        "subclassfeature18" : {
+            name : "Unlimited Power!",
+            minlevel : 18,
+            description : "\n   " + "At 18th level, Weave powers I know that normally cost 2 or fewer weave points to use, do not cost any points to use"
         }
     }
 }
 
 ClassSubList["weaver-sentinel"] = {
-	regExpSearch : /entinel/i,
-	subname : "Path of the Sentinel",
-	features : {
-		"subclassfeature3" : {
-			name : "Jack of All Trades",
-			minlevel : 3,
-			description : "\n   " + "I can add half my proficiency bonus to any ability check that doesn't already include it",
-			eval : "Checkbox('Jack of All Trades', true);",
-			removeeval : "Checkbox('Jack of All Trades', false);"
-		},
-		"subclassfeature6" : {
-			name : "Expertise",
-			minlevel : 6,
-			description : "\n   " + "I gain expertise with two skills I am proficient with",
-		},
-		"subclassfeature10" : {
-			name : "Reliable Talent",
-			minlevel : 10,
-			description : "\n   " + "If I make an ability check where I add my proficiency bonus, rolls of 9 or lower are 10"
-		},
-		"subclassfeature14" : {
-			name : "Evasiveness",
-			minlevel : 14,
-			description : "\n   " + "I gain proficiency in DEX saves",
-			saves : ["Str", "Dex", "Wis"],
-		},
-		"subclassfeature18" : {
-			name : "Master of All",
-			minlevel : 18,
-			description : "\n   " + "I gain proficiency in all skills and add my proficiency bonus to all ability checks",
-			eval : "Checkbox('Jack of All Trades', false);"
-		}
-	}
+    regExpSearch : /entinel/i,
+    subname : "Path of the Sentinel",
+    features : {
+        "subclassfeature3" : {
+            name : "Jack of All Trades",
+            minlevel : 3,
+            description : "\n   " + "I can add half my proficiency bonus to any ability check that doesn't already include it",
+            eval : "Checkbox('Jack of All Trades', true);",
+            removeeval : "Checkbox('Jack of All Trades', false);"
+        },
+        "subclassfeature6" : {
+            name : "Expertise",
+            minlevel : 6,
+            description : "\n   " + "I gain expertise with two skills I am proficient with",
+        },
+        "subclassfeature10" : {
+            name : "Reliable Talent",
+            minlevel : 10,
+            description : "\n   " + "If I make an ability check where I add my proficiency bonus, rolls of 9 or lower are 10"
+        },
+        "subclassfeature14" : {
+            name : "Evasiveness",
+            minlevel : 14,
+            description : "\n   " + "I gain proficiency in DEX saves",
+            saves : ["Str", "Dex", "Wis"],
+        },
+        "subclassfeature18" : {
+            name : "Master of All",
+            minlevel : 18,
+            description : "\n   " + "I gain proficiency in all skills and add my proficiency bonus to all ability checks",
+            eval : "Checkbox('Jack of All Trades', false);"
+        }
+    }
 };
 
 WeaponsList["force blast"] = {
-	regExpSearch : /^(?=.*\bforce)(?=.*(blast)\b).*$/i,
-	name : "Force Blast",
-	ability : 5,
-	type : "Simple",
-	damage : [2, 6, "force"],
-	range : "60 ft",
-	description : "No disadv for melee range. STR save or 5 ft push. Extra 1d6 per pt spent. Extra 5 ft pushback per 2 pts spent.",
-	abilitytodamage : function () {
-		return ((subclass == ClassSubList["weaver-sage"]) && (level > 9));
-	},
+    regExpSearch : /^(?=.*\bforce)(?=.*(blast)\b).*$/i,
+    name : "Force Blast",
+    ability : 5,
+    type : "Simple",
+    damage : [2, 6, "force"],
+    range : "60 ft",
+    description : "No disadv for melee range. STR save or 5 ft push. Extra 1d6 per pt spent. Extra 5 ft pushback per 2 pts spent.",
+    abilitytodamage : function () {
+        return ((subclass == ClassSubList["weaver-sage"]) && (level > 9));
+    },
 };
 
 //Weaver Spell List
 var SetWeaverSpells = function() {
-	var wvSp = [
-		//Cantrip
-		"mage hand",
-		"guidance",
-		"resistance",
-		"friends",
-		"message",
-		"spare the dying",
-		//Level 1
-		"absorb elements",
-		"animal friendship",
-		"bless",
-		"catapult",
-		"charm person",
-		"command",
-		"compelled duel",
-		"cure wounds",
-		"detect evil and good",
-		"detect magic",
-		"disguise self",
-		"divine favor",
-		"expeditious retreat",
-		"feather fall",
-		"healing word",
-		"jump",
-		"longstrider",
-		"sanctuary",
-		"shield",
-		"shield of faith",
-		"thunderwave",
-		"witch bolt",
-		"zephyr strike",
-		//Level 2
-		"aid",
-		"blindness/deafness",
-		"blur",
-		"detect thoughts",
-		"enhance ability",
-		"enlarge",
-		"hold person",
-		"knock",
-		"lesser restoration",
-		"magic weapon",
-		"mind spike",
-		"pass without a trace",
-		"purify food and drink",
-		"silence",
-		"suggestion",
-		"zone of truth",
-		//Level 3
-		"blink",
-		"haste",
-		"lightningbolt",
-		"life transferrence",
-		"mass healing word",
-		"nondetection",
-		"revivify",
-		"tongues",
-		//Level 4
-		"charm monster",
-		"confusion",
-		"death ward",
-		"divination",
-		"dominate beast",
-		"locate creature",
-		"freedom of movement",
-		//Level 5
-		"greater restoration",
-		"hold monster",
-		"mass cure wounds",
-		"mislead",
-		"scrying",
-		"steel wind strike",
-		"telekinesis",
-		//Level 6
-		"chain lightning",
-		"mass suggestion",
-		"tenser's transformation",
-		"true seeing"
-	];
-	for (var a = 0; a < wvSp.length; a++) {
-		if (SpellsList[wvSp[a]]) SpellsList[wvSp[a]].classes.push("weaver");
-	};
+    var wvSp = [
+        //Cantrip
+        "mage hand",
+        "guidance",
+        "resistance",
+        "friends",
+        "message",
+        "spare the dying",
+        //Level 1
+        "absorb elements",
+        "animal friendship",
+        "bless",
+        "catapult",
+        "charm person",
+        "command",
+        "compelled duel",
+        "cure wounds",
+        "detect evil and good",
+        "detect magic",
+        "disguise self",
+        "divine favor",
+        "expeditious retreat",
+        "feather fall",
+        "healing word",
+        "jump",
+        "longstrider",
+        "sanctuary",
+        "shield",
+        "shield of faith",
+        "thunderwave",
+        "witch bolt",
+        "zephyr strike",
+        //Level 2
+        "aid",
+        "blindness/deafness",
+        "blur",
+        "detect thoughts",
+        "enhance ability",
+        "enlarge",
+        "hold person",
+        "knock",
+        "lesser restoration",
+        "magic weapon",
+        "mind spike",
+        "pass without a trace",
+        "purify food and drink",
+        "silence",
+        "suggestion",
+        "zone of truth",
+        //Level 3
+        "blink",
+        "haste",
+        "lightningbolt",
+        "life transferrence",
+        "mass healing word",
+        "nondetection",
+        "revivify",
+        "tongues",
+        //Level 4
+        "charm monster",
+        "confusion",
+        "death ward",
+        "divination",
+        "dominate beast",
+        "locate creature",
+        "freedom of movement",
+        //Level 5
+        "greater restoration",
+        "hold monster",
+        "mass cure wounds",
+        "mislead",
+        "scrying",
+        "steel wind strike",
+        "telekinesis",
+        //Level 6
+        "chain lightning",
+        "mass suggestion",
+        "tenser's transformation",
+        "true seeing"
+    ];
+    for (var a = 0; a < wvSp.length; a++) {
+        if (SpellsList[wvSp[a]]) SpellsList[wvSp[a]].classes.push("weaver");
+    };
 }();
