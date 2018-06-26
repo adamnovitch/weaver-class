@@ -33,10 +33,32 @@ ClassList.weaver = {
 	equipment : "Weaver starting equipment:\n \u2022 Leather Armor;\n \u2022 A martial weapon -or- a simple weapon;\n \u2022 A longbow and 20 arrows -or- a martial melee weapon;\n \u2022 An explorer's pack.\n\nAlternatively, choose 5d4 \xD7 10 gp worth of starting equipment instead of both the class' and the background's starting equipment.",
 	subclasses : ["Weaver Path", ["weaver-guardian", "weaver-sage", "weaver-sentinel"]],
 	attacks : [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
-	spellcastingFactor : 2,
+	spellcastingTable : [
+		[0, 0, 0, 0, 0, 0, 0, 0, 0], //lvl 0   Spell Points:
+		[0, 0, 0, 0, 0, 0, 0, 0, 0], //lvl 1   -------------
+		[3, 0, 0, 0, 0, 0, 0, 0, 0], //lvl 2    6
+		[3, 1, 0, 0, 0, 0, 0, 0, 0], //lvl 3    9
+		[4, 1, 0, 0, 0, 0, 0, 0, 0], //lvl 4   11
+		[4, 2, 0, 0, 0, 0, 0, 0, 0], //lvl 5   14
+		[4, 2, 1, 0, 0, 0, 0, 0, 0], //lvl 6   19
+		[4, 3, 1, 0, 0, 0, 0, 0, 0], //lvl 7   22
+		[4, 3, 2, 0, 0, 0, 0, 0, 0], //lvl 8   27
+		[4, 3, 2, 1, 0, 0, 0, 0, 0], //lvl 9   33
+		[4, 3, 3, 1, 0, 0, 0, 0, 0], //lvl10   38
+		[4, 3, 3, 2, 0, 0, 0, 0, 0], //lvl11   44
+		[4, 3, 3, 2, 1, 0, 0, 0, 0], //lvl12   51
+		[4, 3, 3, 3, 1, 0, 0, 0, 0], //lvl13   57
+		[4, 3, 3, 3, 2, 0, 0, 0, 0], //lvl14   64
+		[4, 3, 3, 3, 2, 1, 0, 0, 0], //lvl15   73
+		[4, 3, 3, 3, 3, 1, 0, 0, 0], //lvl16   80
+		[4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl17   89
+		[4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl18   89
+		[4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl19   89
+		[4, 3, 3, 3, 3, 2, 0, 0, 0]  //lvl20   89
+	],
 	spellcastingKnown : {
 		cantrips : levels.map(function (n) { return n < 2 ? 0 : 2; }),
-		spells : [0, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11]
+		spells : [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15]
 	},
 	features : {
 		"sword-training" : {
@@ -54,7 +76,26 @@ ClassList.weaver = {
 			name : "Spellcasting",
 			minlevel : 2,
 			description : "\n   " + "I can cast Weaver spells that I know, using Wisdom as my spellcasting ability",
-			additional : ["", "2 spells known", "3 spells known", "3 spells known", "4 spells known", "4 spells known", "5 spells known", "5 spells known", "6 spells known", "6 spells known", "7 spells known", "7 spells known", "8 spells known", "8 spells known", "9 spells known", "9 spells known", "10 spells known", "10 spells known", "11 spells known", "11 spells known"]
+			additional : ["", 
+			              "2 spells known", 
+						  "3 spells known", 
+						  "4 spells known", 
+						  "5 spells known", 
+						  "6 spells known", 
+						  "7 spells known", 
+						  "8 spells known", 
+						  "9 spells known", 
+						  "10 spells known", 
+						  "11 spells known", 
+						  "11 spells known", 
+						  "12 spells known", 
+						  "12 spells known", 
+						  "13 spells known", 
+						  "13 spells known", 
+						  "14 spells known", 
+						  "14 spells known", 
+						  "15 spells known", 
+						  "15 spells known"]
 		},
         "weave-powers" : {
             name : "Weave Powers",
