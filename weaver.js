@@ -17,18 +17,18 @@ RequiredSheetVersion(12.999);
 */
 
 ClassList.weaver = {
-	regExpSearch : /eaver/i,
-	name : "Weaver",
-	primaryAbility : "\n \u2022 Weaver: Strength or Dexterity, and Wisdom;",
-	abilitySave : 5,
-	prereqs : "\n \u2022 Weaver: Wisdom 13;",
-	improvements : [0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5],
-	die : 8,
-	saves : ["Str", "Wis"],
-	skills : ["\n\n" + toUni("Weaver") + ": Choose two from Acrobatics, Arcana, Athletics, Religion, and Perception."],
-	toolProfs : {
-		primary : [["One Artisan's Tool of you choice",1]]
-	},
+    regExpSearch : /eaver/i,
+    name : "Weaver",
+    primaryAbility : "\n \u2022 Weaver: Strength or Dexterity, and Wisdom;",
+    abilitySave : 5,
+    prereqs : "\n \u2022 Weaver: Wisdom 13;",
+    improvements : [0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5],
+    die : 8,
+    saves : ["Str", "Wis"],
+    skills : ["\n\n" + toUni("Weaver") + ": Choose two from Acrobatics, Arcana, Athletics, Religion, and Perception."],
+    toolProfs : {
+        primary : [["One Artisan's Tool of you choice",1]]
+    },
     armor : [
         [true, true, false, false],
         [true, true, false, false]
@@ -37,74 +37,74 @@ ClassList.weaver = {
         [true, false, ["shortsword","scimitar","longsword"] ],
         [true, false, ["shortsword","scimitar","longsword"] ]
     ],
-	equipment : "Weaver starting equipment:\n \u2022 Leather Armor;\n \u2022 A martial weapon -or- a simple weapon;\n \u2022 A longbow and 20 arrows -or- a martial melee weapon;\n \u2022 An explorer's pack.\n\nAlternatively, choose 5d4 \xD7 10 gp worth of starting equipment instead of both the class' and the background's starting equipment.",
-	subclasses : ["Weaver Path", ["weaver-guardian", "weaver-sage", "weaver-sentinel"]],
-	attacks : [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+    equipment : "Weaver starting equipment:\n \u2022 Leather Armor;\n \u2022 A martial weapon -or- a simple weapon;\n \u2022 A longbow and 20 arrows -or- a martial melee weapon;\n \u2022 An explorer's pack.\n\nAlternatively, choose 5d4 \xD7 10 gp worth of starting equipment instead of both the class' and the background's starting equipment.",
+    subclasses : ["Weaver Path", ["weaver-guardian", "weaver-sage", "weaver-sentinel"]],
+    attacks : [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
     spellcastingFactor : "weaver1",
-	spellcastingTable : [
-		[0, 0, 0, 0, 0, 0, 0, 0, 0], //lvl  0   Spell Points:
-		[0, 0, 0, 0, 0, 0, 0, 0, 0], //lvl  1   -------------
-		[3, 0, 0, 0, 0, 0, 0, 0, 0], //lvl  2    6
-		[3, 1, 0, 0, 0, 0, 0, 0, 0], //lvl  3    9
-		[4, 1, 0, 0, 0, 0, 0, 0, 0], //lvl  4   11
-		[4, 2, 0, 0, 0, 0, 0, 0, 0], //lvl  5   14
-		[4, 2, 1, 0, 0, 0, 0, 0, 0], //lvl  6   19
-		[4, 3, 1, 0, 0, 0, 0, 0, 0], //lvl  7   22
-		[4, 3, 2, 0, 0, 0, 0, 0, 0], //lvl  8   27
-		[4, 3, 2, 1, 0, 0, 0, 0, 0], //lvl  9   33
-		[4, 3, 3, 1, 0, 0, 0, 0, 0], //lvl 10   38
-		[4, 3, 3, 2, 0, 0, 0, 0, 0], //lvl 11   44
-		[4, 3, 3, 2, 1, 0, 0, 0, 0], //lvl 12   51
-		[4, 3, 3, 3, 1, 0, 0, 0, 0], //lvl 13   57
-		[4, 3, 3, 3, 2, 0, 0, 0, 0], //lvl 14   64
-		[4, 3, 3, 3, 2, 1, 0, 0, 0], //lvl 15   73
-		[4, 3, 3, 3, 3, 1, 0, 0, 0], //lvl 16   80
-		[4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl 17   89
-		[4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl 18   89
-		[4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl 19   89
-		[4, 3, 3, 3, 3, 2, 0, 0, 0]  //lvl 20   89
-	],
-	spellcastingKnown : {
-		cantrips : levels.map(function (n) { return n < 2 ? 0 : 2; }),
-		spells : [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15]
-	},
-	features : {
-		"parry" : {
-			name : "Parry",
-			minlevel : 1,
-			description : "\n   " + "While I am holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction I add 2 to my AC to possibly deflect one incoming weapon attack",
-			action : ["reaction",""]
-		},
-		"cantrips" : {
-			name : "Cantrips",
-			minlevel : 1,
-			description : "\n   " + "I learn 2 cantrips from the Weaver spell list"
-		},
-		"spellcasting" : {
-			name : "Spellcasting",
-			minlevel : 2,
-			description : "\n   " + "I can cast Weaver spells that I know, using Wisdom as my spellcasting ability",
-			additional : ["", 
-			              "2 spells known", 
-						  "3 spells known", 
-						  "4 spells known", 
-						  "5 spells known", 
-						  "6 spells known", 
-						  "7 spells known", 
-						  "8 spells known", 
-						  "9 spells known", 
-						  "10 spells known", 
-						  "11 spells known", 
-						  "11 spells known", 
-						  "12 spells known", 
-						  "12 spells known", 
-						  "13 spells known", 
-						  "13 spells known", 
-						  "14 spells known", 
-						  "14 spells known", 
-						  "15 spells known", 
-						  "15 spells known"]
-		},
+    spellcastingTable : [
+        [0, 0, 0, 0, 0, 0, 0, 0, 0], //lvl  0   Spell Points:
+        [0, 0, 0, 0, 0, 0, 0, 0, 0], //lvl  1   -------------
+        [3, 0, 0, 0, 0, 0, 0, 0, 0], //lvl  2    6
+        [3, 1, 0, 0, 0, 0, 0, 0, 0], //lvl  3    9
+        [4, 1, 0, 0, 0, 0, 0, 0, 0], //lvl  4   11
+        [4, 2, 0, 0, 0, 0, 0, 0, 0], //lvl  5   14
+        [4, 2, 1, 0, 0, 0, 0, 0, 0], //lvl  6   19
+        [4, 3, 1, 0, 0, 0, 0, 0, 0], //lvl  7   22
+        [4, 3, 2, 0, 0, 0, 0, 0, 0], //lvl  8   27
+        [4, 3, 2, 1, 0, 0, 0, 0, 0], //lvl  9   33
+        [4, 3, 3, 1, 0, 0, 0, 0, 0], //lvl 10   38
+        [4, 3, 3, 2, 0, 0, 0, 0, 0], //lvl 11   44
+        [4, 3, 3, 2, 1, 0, 0, 0, 0], //lvl 12   51
+        [4, 3, 3, 3, 1, 0, 0, 0, 0], //lvl 13   57
+        [4, 3, 3, 3, 2, 0, 0, 0, 0], //lvl 14   64
+        [4, 3, 3, 3, 2, 1, 0, 0, 0], //lvl 15   73
+        [4, 3, 3, 3, 3, 1, 0, 0, 0], //lvl 16   80
+        [4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl 17   89
+        [4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl 18   89
+        [4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl 19   89
+        [4, 3, 3, 3, 3, 2, 0, 0, 0]  //lvl 20   89
+    ],
+    spellcastingKnown : {
+        cantrips : levels.map(function (n) { return n < 2 ? 0 : 2; }),
+        spells : [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15]
+    },
+    features : {
+        "parry" : {
+            name : "Parry",
+            minlevel : 1,
+            description : "\n   " + "While I am holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction I add 2 to my AC to possibly deflect one incoming weapon attack",
+            action : ["reaction",""]
+        },
+        "cantrips" : {
+            name : "Cantrips",
+            minlevel : 1,
+            description : "\n   " + "I learn 2 cantrips from the Weaver spell list"
+        },
+        "spellcasting" : {
+            name : "Spellcasting",
+            minlevel : 2,
+            description : "\n   " + "I can cast Weaver spells that I know, using Wisdom as my spellcasting ability",
+            additional : ["", 
+                          "2 spells known", 
+                          "3 spells known", 
+                          "4 spells known", 
+                          "5 spells known", 
+                          "6 spells known", 
+                          "7 spells known", 
+                          "8 spells known", 
+                          "9 spells known", 
+                          "10 spells known", 
+                          "11 spells known", 
+                          "11 spells known", 
+                          "12 spells known", 
+                          "12 spells known", 
+                          "13 spells known", 
+                          "13 spells known", 
+                          "14 spells known", 
+                          "14 spells known", 
+                          "15 spells known", 
+                          "15 spells known"]
+        },
         "weave-powers" : {
             name : "Weave Powers",
             minlevel : 2,
@@ -370,15 +370,15 @@ ClassSubList["weaver-guardian"] = {
 ClassSubList["weaver-sage"] = {
     regExpSearch : /age/i,
     subname : "Path of the Sage",
+    spellcastingKnown : {
+        cantrips : levels.map(function (n) { return n < 2 ? 0 : n < 3 ? 2 : 3; }),
+        spells : [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15]
+    }
     features : {
         "subclassfeature3" : {
             name : "Extra Cantrip",
             minlevel : 3,
             description : "\n   " + "I learn a 3rd cantrip",
-            spellcastingKnown : {
-                cantrips : levels.map(function (n) { return n < 2 ? 0 : 3; }),
-                spells : [0, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11]
-            }
         },
         "subclassfeature6" : {
             name : "Mana Recovery",
