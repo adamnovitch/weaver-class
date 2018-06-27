@@ -373,7 +373,7 @@ ClassSubList["weaver-sage"] = {
     spellcastingKnown : {
         cantrips : levels.map(function (n) { return n < 2 ? 0 : n < 3 ? 2 : 3; }),
         spells : [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15]
-    }
+    },
     features : {
         "subclassfeature3" : {
             name : "Extra Cantrip",
