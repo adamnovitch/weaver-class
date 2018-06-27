@@ -157,7 +157,7 @@ ClassList.weaver = {
             },
             "focus skill" : {
                 name : "Focus Skill",
-                description : "\n   " + "(1 point) I add half my proficiency bonus to my next ability or skill check"
+                description : "\n   " + "(1 point) I gain advantage on my next ability or skill check"
             },
             "helping hand" : {
                 name : "Helping Hand",

@@ -10,7 +10,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** Light armor, Medium Armor
-- **Weapons:** Simple weapons, Longswords, Scimitars, Shortswords, Longbows
+- **Weapons:** Simple weapons, Longswords, Scimitars, and Shortswords
 - **Tools:** One artisan's tools of your choice
 
 ___
@@ -25,10 +25,13 @@ You start with the following equipment, in addition to the equipment granted by 
 - *(a)* a Scholar's Pack or *(b)* an Explorer's Pack
 
 ### Sword Training
-As a Weaver, your training involved proficiency in smaller and medium swords. While you are holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction you can increase your AC by 2 to possibly deflect one incoming weapon attack.
+As a Weaver, you have trained with various swords. At first level you gain proficiency in shortswords, scimitars, and longswords.
+
+### Parry
+At 1st level, while you are holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction you can increase your AC by 2 to possibly deflect one incoming weapon attack.
 
 ### Cantrips
-At first level, you can choose 2 Weaver Cantrips from the Weaver spell list. You know these two Cantrips and always have them prepared.
+At 1st level, choose 2 Cantrips from the Weaver spell list. You know these two Cantrips and can cast them at will.
 
 ### Spellcasting and Weave Points
 Starting at 2nd level, your training and connection to the Weave allows you to perform feats and cast spells. Your access to the Weave is measured in Weave Points. Your number of Weave Points are determined in the class table. They are regained after a long rest.
@@ -48,6 +51,7 @@ When casting spells, you use spell points instead of spell slots. Refer to the f
 |           3 |            5 |
 |           4 |            6 |
 |           5 |            7 |
+|           6 |            9 |
 
 You also get weave powers, which cost Weave points but are not considered spellcasting. When you level up, you can learn a new spell, up to the spell level denoted in the class table, and can forget one spell you already know and learn a new one. You can have a number of Weave powers up to the number denoted in the class table, and can change which powers you have when you finish a long rest. You cannot select Weaver Powers whose point cost is more than half your level.
 
@@ -67,40 +71,31 @@ At 7th level, you can create a invisible blast of magical energy as a bonus acti
 
 ### Level 15 Feature
 
-### Power Beyond
-When you reach Level 20, you gain access to four 6 level spells. They do not count toward your spells known and do not cost any points to use. However, you can only cast one of the four between long rests, and only once:
-- [Chain Lightning](http://engl393-dnd5th.wikia.com/wiki/Chain_Lightning )
-- [Mass Suggestion](http://engl393-dnd5th.wikia.com/wiki/Mass_Suggestion )
-- [Tenser's Transformation](http://engl393-dnd5th.wikia.com/wiki/Tenser's_Transformation )
-- [True Seeing](http://engl393-dnd5th.wikia.com/wiki/True_Seeing )
-
-<div class='classTable wide'>
+### Level 20 Feature
 
 ##### The Weaver
 | Level | Proficiency Bonus | Features                        | Spells Known | Spell Points | Spell Level | Weave Powers Known |
 |:-----:|:-----------------:|:--------------------------------|:------------:|:------------:|:-----------:|:------------------:|
 | 1st   |                +2 | Sword Training, Cantrips        |            - |            - |           - |                  - |
-| 2nd   |                +2 | Spellcasting, Weave Powers      |            2 |            4 |           1 |                  1 |
-| 3rd   |                +2 | Path Selection, Path Feature    |            3 |            6 |           1 |                  1 |
-| 4th   |                +2 | Ability Score Improvement       |            3 |            6 |           1 |                  1 |
-| 5th   |                +3 | Extra Attack                    |            4 |           14 |           2 |                  2 |
-| 6th   |                +3 | Path Feature                    |            4 |           14 |           2 |                  2 |
-| 7th   |                +3 | Force Blast                     |            5 |           17 |           2 |                  2 |
-| 8th   |                +3 | Ability Score Improvement       |            5 |           17 |           2 |                  3 |
-| 9th   |                +4 | -                               |            6 |           27 |           3 |                  3 |
-| 10th  |                +4 | Path Feature                    |            6 |           27 |           3 |                  3 |
-| 11th  |                +4 | Level 11 Feature                |            7 |           32 |           3 |                  4 |
-| 12th  |                +4 | Ability Score Improvement       |            7 |           32 |           3 |                  4 |
-| 13th  |                +5 | -                               |            8 |           38 |           4 |                  4 |
-| 14th  |                +5 | Path Feature                    |            8 |           38 |           4 |                  5 |
-| 15th  |                +5 | Level 15 Feature                |            9 |           44 |           4 |                  5 |
-| 16th  |                +5 | Ability Score Improvement       |            9 |           44 |           4 |                  5 |
-| 17th  |                +6 | -                               |           10 |           57 |           5 |                  6 |
-| 18th  |                +6 | Path Feature                    |           10 |           57 |           5 |                  6 |
-| 19th  |                +6 | Ability Score Improvement       |           11 |           64 |           5 |                  6 |
-| 20th  |                +6 | Power Beyond                    |           11 |           64 |           5 |                  7 |
-
-</div>
+| 2nd   |                +2 | Spellcasting, Weave Powers      |            2 |            6 |           1 |                  1 |
+| 3rd   |                +2 | Path Selection, Path Feature    |            3 |            9 |           2 |                  1 |
+| 4th   |                +2 | Ability Score Improvement       |            4 |           11 |           2 |                  1 |
+| 5th   |                +3 | Extra Attack                    |            5 |           14 |           2 |                  2 |
+| 6th   |                +3 | Path Feature                    |            6 |           19 |           3 |                  2 |
+| 7th   |                +3 | Force Blast                     |            7 |           22 |           3 |                  2 |
+| 8th   |                +3 | Ability Score Improvement       |            8 |           27 |           3 |                  3 |
+| 9th   |                +4 | -                               |            9 |           33 |           4 |                  3 |
+| 10th  |                +4 | Path Feature                    |           10 |           38 |           4 |                  3 |
+| 11th  |                +4 | Level 11 Feature                |           11 |           44 |           4 |                  4 |
+| 12th  |                +4 | Ability Score Improvement       |           11 |           51 |           5 |                  4 |
+| 13th  |                +5 | -                               |           12 |           57 |           5 |                  4 |
+| 14th  |                +5 | Path Feature                    |           12 |           64 |           5 |                  5 |
+| 15th  |                +5 | Level 15 Feature                |           13 |           73 |           6 |                  5 |
+| 16th  |                +5 | Ability Score Improvement       |           13 |           80 |           6 |                  5 |
+| 17th  |                +6 | -                               |           14 |           89 |           6 |                  6 |
+| 18th  |                +6 | Path Feature                    |           14 |           89 |           6 |                  6 |
+| 19th  |                +6 | Ability Score Improvement       |           15 |           89 |           6 |                  6 |
+| 20th  |                +6 | Level 20 Feature                |           15 |           89 |           6 |                  7 |
 
 ## Weaver Paths
 
@@ -220,11 +215,17 @@ At 18th level you become proficient in all skills. Also you add your proficiency
 - [Steel Wind Strike](http://engl393-dnd5th.wikia.com/wiki/Steel_Wind_Strike )
 - [Telekinesis](http://engl393-dnd5th.wikia.com/wiki/Telekinesis )
 
+#### 6th Level
+- [Chain Lightning](http://engl393-dnd5th.wikia.com/wiki/Chain_Lightning )
+- [Mass Suggestion](http://engl393-dnd5th.wikia.com/wiki/Mass_Suggestion )
+- [Tenser's Transformation](http://engl393-dnd5th.wikia.com/wiki/Tenser's_Transformation )
+- [True Seeing](http://engl393-dnd5th.wikia.com/wiki/True_Seeing )
+
 ### Weave Abilities
 #### 1 pt
 - **Danger Sense** When you would have to make a dexterity saving throw, you can gain advantage on that saving throw.
 - **Event Focus** By concentrating for 10 minutes, you open your senses to you surroundings. While concentrating, you can find any event occurring within 1 mile of your position. For every additional 2 points you spend on this ability you can double the range.
-- **Focus Skill** Add half your proficiency bonus to the next skill check you make.
+- **Focus Skill** Gain advantage on the next skill check you make.
 - **Helping Hand** As a bonus action, you can use the Help action to aid an ally within 30 feet.
 - **Mind Meld** As a bonus action, you can communicate telepathically with one willing creature you can see within 120 feet of you. The target must have an	Intelligence of at least 2,	otherwise this ability fails and the action is wasted. This communication can occur until the end of the current turn. You don’t need to share a language with the target for it to understand your telepathic utterances, and it understands you even if it lacks a language. You also gain access to one memory of the target’s choice, gaining perfect recall of one thing it saw or did.
 - **Past Sense** By focusing for 1 minute at a location, you can gain an accurate understanding of any events that occurred at that spot within the past day. For every additional 2 points you spend on this ability you can double the time.
