@@ -232,7 +232,7 @@ At 18th level you become proficient in all skills. Also you add your proficiency
 - **Strong Strike** Gain proficiency in unarmed strikes for this turn, your damage dice for your unarmed strikes and weapon attacks depends on your proficiency bonus (+2 use d4, +3 use d6, +4 use d8, +5 use d10, +6 use d12).
 #### 2 pts
 - **Brain Teasing** Target creature must make a wisdom save, taking 3d6 psychic damage on a failure, half on a success. It also becomes frightened if it fails. 
-- **Deflect Weapons** When hit by a weapon attack, you can reduce damage by 1d8 + Weaver Level.
+- **Deflect Weapons** When hit by a weapon attack, you can reduce damage by 1d10 + WIS + Weaver Level. Then if damage is reduced to zero, you can make one weapon attack against the attacking creature.
 - **Patient Defense** You can take the Dodge action as a bonus action.
 - **Resist Environment** You become immune to the adverse effects of harsh weather for 1 hour. Additionally if you spend an extra 5 pts. you become immune to exhaustion for the next 8 hours.
 - **Sense Emotion** You attune your senses to pick up the emotions of others for 10 minutes, with concentration. As your action, and as a bonus action on each turn for the duration, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm.

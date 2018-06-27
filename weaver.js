@@ -34,48 +34,49 @@ ClassList.weaver = {
         [true, true, false, false]
     ],
     weapons : [
-        [true, false, ["shortsword","scimitar","longsword","longbow"] ],
-        [true, false, ["shortsword","scimitar","longsword","longbow"] ]
+        [true, false, ["shortsword","scimitar","longsword"] ],
+        [true, false, ["shortsword","scimitar","longsword"] ]
     ],
 	equipment : "Weaver starting equipment:\n \u2022 Leather Armor;\n \u2022 A martial weapon -or- a simple weapon;\n \u2022 A longbow and 20 arrows -or- a martial melee weapon;\n \u2022 An explorer's pack.\n\nAlternatively, choose 5d4 \xD7 10 gp worth of starting equipment instead of both the class' and the background's starting equipment.",
 	subclasses : ["Weaver Path", ["weaver-guardian", "weaver-sage", "weaver-sentinel"]],
 	attacks : [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+    spellcastingFactor : "weaver1",
 	spellcastingTable : [
-		[0, 0, 0, 0, 0, 0, 0, 0, 0], //lvl 0   Spell Points:
-		[0, 0, 0, 0, 0, 0, 0, 0, 0], //lvl 1   -------------
-		[3, 0, 0, 0, 0, 0, 0, 0, 0], //lvl 2    6
-		[3, 1, 0, 0, 0, 0, 0, 0, 0], //lvl 3    9
-		[4, 1, 0, 0, 0, 0, 0, 0, 0], //lvl 4   11
-		[4, 2, 0, 0, 0, 0, 0, 0, 0], //lvl 5   14
-		[4, 2, 1, 0, 0, 0, 0, 0, 0], //lvl 6   19
-		[4, 3, 1, 0, 0, 0, 0, 0, 0], //lvl 7   22
-		[4, 3, 2, 0, 0, 0, 0, 0, 0], //lvl 8   27
-		[4, 3, 2, 1, 0, 0, 0, 0, 0], //lvl 9   33
-		[4, 3, 3, 1, 0, 0, 0, 0, 0], //lvl10   38
-		[4, 3, 3, 2, 0, 0, 0, 0, 0], //lvl11   44
-		[4, 3, 3, 2, 1, 0, 0, 0, 0], //lvl12   51
-		[4, 3, 3, 3, 1, 0, 0, 0, 0], //lvl13   57
-		[4, 3, 3, 3, 2, 0, 0, 0, 0], //lvl14   64
-		[4, 3, 3, 3, 2, 1, 0, 0, 0], //lvl15   73
-		[4, 3, 3, 3, 3, 1, 0, 0, 0], //lvl16   80
-		[4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl17   89
-		[4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl18   89
-		[4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl19   89
-		[4, 3, 3, 3, 3, 2, 0, 0, 0]  //lvl20   89
+		[0, 0, 0, 0, 0, 0, 0, 0, 0], //lvl  0   Spell Points:
+		[0, 0, 0, 0, 0, 0, 0, 0, 0], //lvl  1   -------------
+		[3, 0, 0, 0, 0, 0, 0, 0, 0], //lvl  2    6
+		[3, 1, 0, 0, 0, 0, 0, 0, 0], //lvl  3    9
+		[4, 1, 0, 0, 0, 0, 0, 0, 0], //lvl  4   11
+		[4, 2, 0, 0, 0, 0, 0, 0, 0], //lvl  5   14
+		[4, 2, 1, 0, 0, 0, 0, 0, 0], //lvl  6   19
+		[4, 3, 1, 0, 0, 0, 0, 0, 0], //lvl  7   22
+		[4, 3, 2, 0, 0, 0, 0, 0, 0], //lvl  8   27
+		[4, 3, 2, 1, 0, 0, 0, 0, 0], //lvl  9   33
+		[4, 3, 3, 1, 0, 0, 0, 0, 0], //lvl 10   38
+		[4, 3, 3, 2, 0, 0, 0, 0, 0], //lvl 11   44
+		[4, 3, 3, 2, 1, 0, 0, 0, 0], //lvl 12   51
+		[4, 3, 3, 3, 1, 0, 0, 0, 0], //lvl 13   57
+		[4, 3, 3, 3, 2, 0, 0, 0, 0], //lvl 14   64
+		[4, 3, 3, 3, 2, 1, 0, 0, 0], //lvl 15   73
+		[4, 3, 3, 3, 3, 1, 0, 0, 0], //lvl 16   80
+		[4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl 17   89
+		[4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl 18   89
+		[4, 3, 3, 3, 3, 2, 0, 0, 0], //lvl 19   89
+		[4, 3, 3, 3, 3, 2, 0, 0, 0]  //lvl 20   89
 	],
 	spellcastingKnown : {
 		cantrips : levels.map(function (n) { return n < 2 ? 0 : 2; }),
 		spells : [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15]
 	},
 	features : {
-		"sword-training" : {
-			name : "Sword Training",
+		"parry" : {
+			name : "Parry",
 			minlevel : 1,
 			description : "\n   " + "While I am holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction I add 2 to my AC to possibly deflect one incoming weapon attack",
 			action : ["reaction",""]
 		},
 		"cantrips" : {
-			name : "Cantrip",
+			name : "Cantrips",
 			minlevel : 1,
 			description : "\n   " + "I learn 2 cantrips from the Weaver spell list"
 		},
