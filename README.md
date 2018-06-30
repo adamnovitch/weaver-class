@@ -145,7 +145,7 @@ At 18th level you become proficient in all skills. Also you add your proficiency
 - [Spare the Dying](http://engl393-dnd5th.wikia.com/wiki/Spare_the_Dying )
 
 #### 1st Level
-- [Absorb Elements](http://engl393-dnd5th.wikia.com/wiki/Absorb_Emements )
+- [Absorb Elements](http://engl393-dnd5th.wikia.com/wiki/Absorb_Elements )
 - [Animal Friendship](http://engl393-dnd5th.wikia.com/wiki/Animal_Friendship )
 - [Bless](http://engl393-dnd5th.wikia.com/wiki/Bless )
 - [Catapult](http://engl393-dnd5th.wikia.com/wiki/Catapult )
