@@ -28,7 +28,7 @@ You start with the following equipment, in addition to the equipment granted by 
 As a Weaver, you have trained with various swords. At first level you gain proficiency in shortswords, scimitars, and longswords.
 
 ### Parry
-At 1st level, while you are holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction you can increase your AC by 2 to possibly deflect one incoming weapon attack.
+At 1st level, while you are holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction you can add your Proficiency bonus to your AC to possibly deflect one incoming weapon attack.
 
 ### Cantrips
 At 1st level, choose 2 Cantrips from the Weaver spell list. You know these two Cantrips and can cast them at will.
