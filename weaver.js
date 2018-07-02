@@ -112,7 +112,7 @@ ClassList.weaver = {
             usages : levels.map(function (n) { 
                 return n <  3 ?  6 : n <  4 ?  9 : n <  5 ? 11 : n <  6 ? 14 : n <  7 ? 19 :
                        n <  8 ? 22 : n <  9 ? 27 : n < 10 ? 33 : n < 11 ? 38 : n < 12 ? 44 :
-                       n < 13 ? 51 : n < 14 ? 57 : n < 15 ? 64 : n < 16 : 73 : n < 17 ? 80 : 89; }),
+                       n < 13 ? 51 : n < 14 ? 57 : n < 15 ? 64 : n < 16 ? 73 : n < 17 ? 80 : 89; }),
             recovery : "long rest"
         },
         "weave-powers" : {
