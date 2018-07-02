@@ -1,0 +1,60 @@
+##############################
+# Playtest Log, Weaver Class #
+##############################
+
+##############
+# Characters #
+##############
+Name: Orwyn_3
+Race: Human (Variant)
+Level: 3
+Array:
+ - STR: 16
+ - DEX:  8
+ - CON: 15
+ - INT: 10
+ - WIS: 14
+ - CHA: 12
+HP: 24
+AC: 14
+DC: 12
+Path: Guardian
+Feats: Tavern Brawler
+Background: City Watch
+Skills: Arcana, Athletics, Insight, Perception, Mason's Tools
+Weapons: Longsword, Dagger, Unarmed Strike, Improvised Weapons, Grapple
+Notes:
+ +2 WIS and wisdom stats are somewhat optimized for good Perception and Insight,
+ +3 STR with Athletics is optimized too. Arcana at +2 is fair. Character is
+ primarily physical, Guardian Path. Spell and ability usage are mainly to buff
+ melee. 
+
+
+############
+# Sessions #
+############
+Date: 6/30/18
+Character: Owrwyn_3
+Weapons Used: Dagger, Longsword, Grapple
+Spells used: Thunderwave
+Powers used: None
+Perceived Encounter Difficulty: Easy
+Party Makeup:
+ - Fighter (Monster Hunter)
+ - Blood Hunter (Unknown Details)
+ - Warlock (Tome, patron unknown)
+ - Bard (College Unknown)
+Enemies:
+ - Xvart x12
+ - Xvart Warlock of Raxivort x1
+ - Tiefling NPC thieves, levels 2 and 4 
+Skills:
+ - Information gathering
+ - Perception checks
+ - Insight checks
+Conclusion:
+ Owryn's main contribution to the party by taking care of most of the Xvarts in
+ a single Thunderwave. Inconclusive, as any arcane caster could have used an AOE
+ spell similarly, DC was 12, enemies had low CON.
+Other Notes:
+ First time DM.
