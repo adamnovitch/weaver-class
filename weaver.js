@@ -72,7 +72,7 @@ ClassList.weaver = {
         "parry" : {
             name : "Parry",
             minlevel : 1,
-            description : "\n   " + "While I am holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction I add 2 to my AC to possibly deflect one incoming weapon attack",
+            description : "\n   " + "While I am holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction I add my proficiency bonus to my AC to possibly deflect one incoming weapon attack",
             action : ["reaction"," (+2 AC)"]
         },
         "cantrips" : {
@@ -139,12 +139,14 @@ ClassList.weaver = {
                             "Patient Defense",
                             "Resist Environment",
                             "Sense Emotion",
+                            "Strong Parry",
                             "Battle Meditation",
                             "End Affliction",
                             "Manipulate Emotion",
                             "Mind Probe",
                             "Transfer Emotion",
                             "Improve Ability",
+                            "Expert Defense",
                             "Turn Good or Evil",
                             "Brutal Strike",
                             "Destructive Burst",
@@ -218,6 +220,10 @@ ClassList.weaver = {
                 name : "Sense Emotion",
                 description : "\n   " + "(2 points) You attune your senses to pick up the emotions of others for 10 minutes, with concentration. As your action, and as a bonus action on each turn for the duration, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm."
             },
+            "strong parry" : {
+                name : "Strong Parry",
+                description : "\n   " + "(2 points) When I Parry, I add my proficiency bonus to my AC"
+            },
             "battle meditation" : {
                 name : "Battle Meditation",
                 description : "\n   " + "(3 points) As a bonus action, you can grant yourself advantage on your next weapon attack.",
@@ -246,6 +252,10 @@ ClassList.weaver = {
             "improve ability" : {
                 name : "Improve Ability",
                 description : "\n   " + "(4 points) You can treat one of your ability scores as if it were increased by 2 (+1) for all ability and skill checks for 1 hour."
+            },
+            "expert defense" : {
+                name : "Expert Defense",
+                description : "\n   " + "(4 points) When I parry, my AC is increased until my next turn"
             },
             "turn good or evil" : {
                 name : "Turn Good or Evil",
