@@ -72,8 +72,8 @@ ClassList.weaver = {
         "parry" : {
             name : "Parry",
             minlevel : 1,
-            description : "\n   " + "While I am holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction I add my proficiency bonus to my AC to possibly deflect one incoming weapon attack",
-            action : ["reaction"," (add Proficiency Bonus to AC)"]
+            description : "\n   " + "While I am holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction I add 2 to my AC to possibly deflect one incoming weapon attack",
+            action : ["reaction"," (+2 AC)"]
         },
         "cantrips" : {
             name : "Cantrips",
