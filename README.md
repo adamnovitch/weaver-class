@@ -33,18 +33,18 @@ At 1st level, while you are holding a Dagger, Scimitar, Shortsword, or Longsword
 ### Cantrips
 At 1st level, choose 2 Cantrips from the Weaver spell list. You know these two Cantrips and can cast them at will.
 
-### Spellcasting and Weave Points
-Starting at 2nd level, your training and connection to the Weave allows you to perform feats and cast spells. Your access to the Weave is measured in Weave Points. Your number of Weave Points are determined in the class table. They are regained after a long rest.
+### Spellcasting and Spell Points
+Starting at 2nd level, your training and connection to the Weave allows you to perform feats and cast spells. Your access to the Weave is measured in Spell Points. Your number of Spell Points are determined in the class table. They are regained after a long rest.
 
-Your Weave powers may require you to make a spell attack or force your target(s) to make a saving throw. Wisdom is your ability for this feature:
+Your spellcasting may require you to make a spell attack or force your target(s) to make a saving throw. Wisdom is your ability for this feature:
 
-**Weave power save DC** = 8 + your proficiency bonus + your Wisdom modifier
+**Spell save DC** = 8 + your proficiency bonus + your Wisdom modifier
 
-**Weave attack modifier** = your proficiency bonus + your Wisdom modifier
+**Spell attack modifier** = your proficiency bonus + your Wisdom modifier
 
 When casting spells, you use spell points instead of spell slots. Refer to the following table to determine the spell point equivalent of a spell's level:
 
-| Spell Level | Weave Points |
+| Spell Level | Spell Points |
 |:-----------:|:------------:|
 |           1 |            2 |
 |           2 |            3 |
@@ -53,7 +53,7 @@ When casting spells, you use spell points instead of spell slots. Refer to the f
 |           5 |            7 |
 |           6 |            9 |
 
-You also get weave powers, which cost Weave points but are not considered spellcasting. When you level up, you can learn a new spell, up to the spell level denoted in the class table, and can forget one spell you already know and learn a new one. You can have a number of Weave powers up to the number denoted in the class table, and can change which powers you have when you finish a long rest. You cannot select Weaver Powers whose point cost is more than half your level.
+You also get weave powers, which cost spell points but are not considered spellcasting. When you level up, you can learn a new spell, up to the spell level denoted in the class table, and can forget one spell you already know and learn a new one. You can have a number of Weave powers up to the number denoted in the class table, and can change which powers you have when you finish a long rest. You cannot select Weaver Powers whose point cost is more than half your level.
 
 ### Path Selection
 At 3nd level you choose your Path: Guardian, Sentinel, or Sage. Your choice grants you features at 3nd, 5th, 9th, 13th, and 17th level.
@@ -65,7 +65,7 @@ When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can 
 At 5th level, you can make 2 attacks with your attack action.
 
 ### Force Blast
-At 7th level, you can create a invisible blast of magical energy as a bonus action. This blast has a range of 60 feet, and does 2d6 force damage. Roll a ranged spell attack and add your Wisdom modifier and proficiency bonus. On a hit, the target must make a strength saving throw of be pushed back 5 feet. You can spend a maximum of 2 Weave Points, and for each point spent, the damage increases by 1d6 and you can push the enemy back an additional 5 feet. You do not have disadvantage if an enemy is within 5 feet.
+At 7th level, you can create a invisible blast of magical energy as a bonus action. This blast has a range of 60 feet, and does 2d6 force damage. Roll a ranged spell attack and add your Wisdom modifier and proficiency bonus. On a hit, the target must make a strength saving throw of be pushed back 5 feet. You can spend a maximum of 2 Spell Points, and for each point spent, the damage increases by 1d6 and you can push the enemy back an additional 5 feet. You do not have disadvantage if an enemy is within 5 feet.
 
 ### Level 11 Feature
 
@@ -221,7 +221,7 @@ At 18th level you become proficient in all skills. Also you add your proficiency
 - [Tenser's Transformation](http://engl393-dnd5th.wikia.com/wiki/Tenser's_Transformation )
 - [True Seeing](http://engl393-dnd5th.wikia.com/wiki/True_Seeing )
 
-### Weave Abilities
+### Weave Powers
 #### 1 pt
 - **Danger Sense** When you would have to make a dexterity saving throw, you can gain advantage on that saving throw.
 - **Event Focus** By concentrating for 10 minutes, you open your senses to you surroundings. While concentrating, you can find any event occurring within 1 mile of your position. For every additional 2 points you spend on this ability you can double the range.
