@@ -261,4 +261,4 @@ At 18th level you become proficient in all skills. Also you add your proficiency
 - **Blindsight** As a bonus action, you gain Blindsight to a distance of 120 feet for 1 hour.
 - **Probe Darkness** A stronger version of detect thoughts, you are able to go deep into the subconscious of your victim to release some of their deepest fears and trauma. Target must make a Wisdom saving throw. On a failure they take 10d8 psychic damage, half on a success. If they fail you learn one fear/trauma of the target. Subsequent psychic attacks do an extra 2d8 damage on the target. Target is immune to this ability for the next 24 hours, and if a target is affected by this again, you learn no new information and the damage is only 8d6.
 #### 9 pts
-- **Clear Mind** You automatically succeed any Intelligence, Wisdom, or Charisma saving throw for the next 8 hours.
+- **Clear Mind** You have advantage on all Intelligence, Wisdom, and Charisma saving throws for the next 8 hours.
