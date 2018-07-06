@@ -58,3 +58,26 @@ Conclusion:
  spell similarly, DC was 12, enemies had low CON.
 Other Notes:
  First time DM.
+
+Date: 7/5/18
+Character: Owrwyn_3
+Weapons Used: Longsword, Dagger
+Spells used: Mage Hand, Magic Weapon
+Powers used: None
+Perceived Encounter Difficulty: Easy
+Party Makeup:
+ - Rogue (Mastermind)
+ - Blood Hunter (Unknown Details)
+ - Monk (Kensei)
+Enemies:
+ - A lot of Kruthiks
+Skills:
+ - Perception checks
+ - Stealth Checks
+ - Strength Check
+Conclusion:
+ - Did mostly melee this time. Regular melee was effective. Saber Defense was of
+   little help, but the issue is the base AC of 14. Will see how it works with
+   better armor.
+Other Notes:
+ - Had an NPC with us so not as difficult.
