@@ -27,8 +27,8 @@ You start with the following equipment, in addition to the equipment granted by 
 ### Sword Training
 As a Weaver, you have trained with various swords. At first level you gain proficiency in shortswords, scimitars, and longswords.
 
-### Parry
-At 1st level, while you are holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction you can add your proficiency bonus to your AC to possibly deflect one incoming weapon attack.
+### Saber Defense
+At 1st level, while you are holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction you can add your proficiency bonus to your AC. This increase lasts until your next turn unless you take damage from a weapon attack or spell.
 
 ### Cantrips
 At 1st level, choose 2 Cantrips from the Weaver spell list. You know these two Cantrips and can cast them at will.
@@ -76,7 +76,7 @@ At 7th level, you can create a invisible blast of magical energy as a bonus acti
 ##### The Weaver
 | Level | Proficiency Bonus | Features                        | Spells Known | Spell Points | Spell Level | Weave Powers Known |
 |:-----:|:-----------------:|:--------------------------------|:------------:|:------------:|:-----------:|:------------------:|
-| 1st   |                +2 | Parry, Cantrips                 |            - |            - |           - |                  - |
+| 1st   |                +2 | Saber Defense, Cantrips         |            - |            - |           - |                  - |
 | 2nd   |                +2 | Spellcasting, Weave Powers      |            2 |            6 |           1 |                  1 |
 | 3rd   |                +2 | Path Selection, Path Feature    |            3 |            9 |           2 |                  1 |
 | 4th   |                +2 | Ability Score Improvement       |            4 |           11 |           2 |                  1 |
@@ -236,7 +236,6 @@ At 18th level you become proficient in all skills. Also you add your proficiency
 - **Patient Defense** You can take the Dodge action as a bonus action.
 - **Resist Environment** You become immune to the adverse effects of harsh weather for 1 hour. Additionally if you spend an extra 5 pts. you become immune to exhaustion for the next 8 hours.
 - **Sense Emotion** You attune your senses to pick up the emotions of others for 10 minutes, with concentration. As your action, and as a bonus action on each turn for the duration, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm.
-- **Strong Parry** When you parry, your AC increases by your proficiency bonus instead of by 2.
 #### 3 pts
 - **Battle Meditation** As a bonus action, you can grant yourself advantage on your next weapon attack.
 - **End Affliction** You can use this ability as an action to end one effect on yourself that is causing you to be frightened.
@@ -245,7 +244,6 @@ At 18th level you become proficient in all skills. Also you add your proficiency
 - **Transfer Emotion** If a spell or ability puts you or an ally under the effect of an emotional condition such as fear, being charmed, etc, you can use this ability to cancel the effect on yourself or ally and redirect it at the hostile creature.
 #### 4 pts
 - **Improve Ability** You can treat one of your ability scores as if it were increased by 2 (+1) for all ability and skill checks for 1 hour.
-- **Expert Defense** When you Parry, you increase your AC by 2 until your next turn.
 - **Turn Good/Evil** Target Good/Evil aligned creature must pass a Wisdom saving throw or it has disadvantage on all attack rolls and saving throws for up to 1 minute, and can repeat the save after each of it's turns. You can't use Turn Evil if you are Evil aligned, and can't sue Turn Good if you are Good aligned.
 #### 5 pts
 - **Brutal Strike** As a bonus action before you attack, you can double the damage dice of your weapon attack.
