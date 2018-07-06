@@ -69,11 +69,11 @@ ClassList.weaver = {
         spells : [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15]
     },
     features : {
-        "parry" : {
-            name : "Parry",
+        "saber defense" : {
+            name : "Saber Defense",
             minlevel : 1,
-            description : "\n   " + "While I am holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction I add 2 to my AC to possibly deflect one incoming weapon attack",
-            action : ["reaction"," (+2 AC)"]
+            description : "\n   " + "While I am holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction I add my proficiency bonus to my AC. The increase happens until my next turn and ends if I take damage",
+            action : ["reaction"," ( +Proficieny AC)"]
         },
         "cantrips" : {
             name : "Cantrips",
@@ -145,6 +145,7 @@ ClassList.weaver = {
                             "Mind Probe",
                             "Transfer Emotion",
                             "Improve Ability",
+                            "Expert Defense",
                             "Turn Good or Evil",
                             "Brutal Strike",
                             "Destructive Burst",
