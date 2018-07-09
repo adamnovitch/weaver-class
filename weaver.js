@@ -145,7 +145,6 @@ ClassList.weaver = {
                             "Mind Probe",
                             "Transfer Emotion",
                             "Improve Ability",
-                            "Expert Defense",
                             "Turn Good or Evil",
                             "Brutal Strike",
                             "Destructive Burst",
