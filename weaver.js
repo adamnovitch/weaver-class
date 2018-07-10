@@ -351,18 +351,16 @@ ClassSubList["weaver-guardian"] = {
             armor : [true, true, true, false]
         },
         "subclassfeature6" : {
-            name : "Action Surge",
+            name : "Empowered Strikes",
             minlevel : 6,
-            description : "\n   " + "I can take one additional action on my turn on top of my normally allowed actions",
-            usages : [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-            recovery : "short rest"
+            description : "\n   " + "As a bonus action, I can spend 3 Spell Points: my weapon's attacks count as magic for the purpose of overcoming resistance, and I can add my WIS mod to damage",
+            action : ["bonus action", " (before attack)"]
         },
         "subclassfeature10" : {
-            name : "Indomitable",
+            name : "Spellstrike",
             minlevel : 10,
-            description : "\n   " + "I can reroll a failed saving throw, but must keep the new result",
-            usages : [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
-            recovery : "long rest"
+            description : "\n   " + "When I cast a spell, I can use a bonus action to make 1 weapon attack",
+            action : ["bonus action", " (after casting a spell)"]
         },
         "subclassfeature14" : {
             name : "Supreme Fortitude",

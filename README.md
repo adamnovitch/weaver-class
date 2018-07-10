@@ -102,10 +102,10 @@ At 7th level, you can create a invisible blast of magical energy as a bonus acti
 ### Path of the Guardian
 #### Fighter Training
 At 3rd level, you gain proficiency in Heavy Armor. You may also choose a fighting style from the following: Defense, Dueling, Great Weapon Master, Two-Weapon Fighting.
-#### Action Surge
-At 6th level, once per short rest you can take an additional action on your turn.
-#### Indomitable
-Beginning at 10th level, you can re-roll a saving throw that you fail. If you do so, you must use the new roll. You can use this feature twice per long rest.
+#### Empowered Strikes
+At 6th level, you can use a bonus action before you attack to spend 3 spell points. Your weapon attacks this turn are considered magical for the purpose of overcoming resistance, and deal extra damage equal to your wisdom modifier.
+#### Spellstrike
+Beginning at 10th level, when you use your action to cast a spell, you can use your bonus action to make one weapon attack.
 #### Supreme Fortitude
 At 14th level you gain proficiency in Constitution saves.
 #### Flurry attack
