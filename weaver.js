@@ -34,8 +34,8 @@ ClassList.weaver = {
         [true, true, false, false]
     ],
     weapons : [
-        [true, false, ["shortsword","scimitar","longsword"] ],
-        [true, false, ["shortsword","scimitar","longsword"] ]
+        [true, false, ["shortsword","scimitar","longsword","rapier"] ],
+        [true, false, ["shortsword","scimitar","longsword","rapier"] ]
     ],
     equipment : "Weaver starting equipment:\n \u2022 Leather Armor;\n \u2022 A martial weapon -or- a simple weapon;\n \u2022 A longbow and 20 arrows -or- a martial melee weapon;\n \u2022 An explorer's pack.\n\nAlternatively, choose 5d4 \xD7 10 gp worth of starting equipment instead of both the class' and the background's starting equipment.",
     subclasses : ["Weaver Path", ["weaver-guardian", "weaver-sage", "weaver-sentinel"]],
@@ -69,12 +69,12 @@ ClassList.weaver = {
         spells : [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15]
     },
     features : {
-        "saber defense" : {
-            name : "Saber Defense",
+        "weapon defense" : {
+            name : "Weapon Defense",
             minlevel : 1,
-            description : "\n   " + "While I am holding a Dagger, Scimitar, Shortsword, or Longsword, and no other weapon, I get +1 to my AC",
-            eval : "AddACMisc(1, 'Saber Defense (if holding a sword)', 'When wielding a sword, Saber Defense gives a +1 bonus to AC', 'ACshield');",
-           	removeeval : "AddACMisc(0, 'Saber Defense (if holding a sword)', 'When wielding a sword, Saber Defense gives a +1 bonus to AC');"
+            description : "\n   " + "While I am holding a versatile or finesse weapon I get +1 to my AC",
+            eval : "AddACMisc(1, 'Weapon Defense (Versatile or Finesse Weapon)', 'When wielding a versatile or finesse weapon, Weapon Defense gives a +1 bonus to AC', 'ACshield');",
+            removeeval : "AddACMisc(0, 'Weapon Defense (Versatile or Finesse Weapon)', 'When wielding a versatile or finesse weapon, Weapon Defense gives a +1 bonus to AC');"
         },
         "cantrips" : {
             name : "Cantrips",
