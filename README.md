@@ -119,7 +119,7 @@ At 6th level, when you complete short rest, you gain Weave points equal to your 
 #### Empowered Casting
 At 10th level you add your Widom modifier to the damage of any spell or ability you use.
 #### Force of Will
-At 14th level, you gain proficiency in Intelligence and Charisma saves.
+At 14th level, you gain proficiency in Intelligence or Charisma saves. You also gain access to Counterspell.
 #### Unlimited Power!
 At 18th level, Weave powers you know that normally cost 2 or fewer weave points to use, do not cost any points to use.
 

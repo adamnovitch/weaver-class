@@ -404,7 +404,8 @@ ClassSubList["weaver-sage"] = {
         "subclassfeature14" : {
             name : "Force of Will",
             minlevel : 14,
-            description : "\n   " + "I choose to gain proficiency in INT or CHA saves",
+            description : "\n   " + "I choose to gain proficiency in INT or CHA saves. I also gain the spell Counterspell",
+            spellcastingExtra : ["counterspell"]
         },
         "subclassfeature18" : {
             name : "Unlimited Power!",
