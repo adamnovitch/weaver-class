@@ -72,8 +72,9 @@ ClassList.weaver = {
         "saber defense" : {
             name : "Saber Defense",
             minlevel : 1,
-            description : "\n   " + "While I am holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction I add my proficiency bonus to my AC. The increase happens until my next turn and ends if I take damage",
-            action : ["reaction"," ( +Proficieny AC)"]
+            description : "\n   " + "While I am holding a Dagger, Scimitar, Shortsword, or Longsword, and no other weapon, I get +1 to my AC",
+            eval : "AddACMisc(1, 'Saber Defense (if holding a sword)', 'When wielding a sword, Saber Defense gives a +1 bonus to AC', 'ACshield');",
+           	removeeval : "AddACMisc(0, 'Saber Defense (if holding a sword)', 'When wielding a sword, Saber Defense gives a +1 bonus to AC');"
         },
         "cantrips" : {
             name : "Cantrips",

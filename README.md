@@ -28,7 +28,7 @@ You start with the following equipment, in addition to the equipment granted by 
 As a Weaver, you have trained with various swords. At first level you gain proficiency in shortswords, scimitars, and longswords.
 
 ### Saber Defense
-At 1st level, while you are holding a Dagger, Scimitar, Shortsword, or Longsword, as a reaction you can add your proficiency bonus to your AC. This increase lasts until your next turn unless you take damage from a weapon attack or spell.
+At 1st level, while you are holding a Dagger, Scimitar, Shortsword, or Longsword, you get a +1 to your AC.
 
 ### Cantrips
 At 1st level, choose 2 Cantrips from the Weaver spell list. You know these two Cantrips and can cast them at will.
