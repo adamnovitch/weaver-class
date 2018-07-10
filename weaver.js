@@ -392,23 +392,19 @@ ClassSubList["weaver-sage"] = {
             description : "\n   " + "I learn a 3rd cantrip",
         },
         "subclassfeature6" : {
-            name : "Mana Recovery",
+            name : "Weave Recovery",
             minlevel : 6,
-            description : "\n   " + "During a short rest, I can recover a number mana points equal to half my weaver level (rounded up) + WIS modifier",
-            additional : levels.map(function (n) {
-                return (Math.ceil(n / 2)) + " + WIS mana points";
-            })
+            description : "\n   " + "During a short rest, I recover a number spell points equal to my WIS modifier",
         },
         "subclassfeature10" : {
             name : "Enhanced Magic",
             minlevel : 10,
-            description : "\n   " + "I can add my Wisdom modifier to the damage roll of any spell or weave ability I use"
+            description : "\n   " + "I can add my Wisdom modifier to the damage roll of any spell or ability I use"
         },
         "subclassfeature14" : {
             name : "Force of Will",
             minlevel : 14,
-            description : "\n   " + "I gain proficiency in INT and CHA saves",
-            saves : ["Str", "Int", "Wis", "Cha"]
+            description : "\n   " + "I choose to gain proficiency in INT or CHA saves",
         },
         "subclassfeature18" : {
             name : "Unlimited Power!",
