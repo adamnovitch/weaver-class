@@ -115,7 +115,7 @@ At 18th level you can make 3 attacks with your attack action.
 ### Superior Attunement
 At 3rd level, you learn a 3rd Cantrip from the Weaver spell list.
 ### Weave Recovery
-At 6th level, when you complete short rest, you gain Weave points equal to half your Weaver level + your Wisdom modifier.
+At 6th level, when you complete short rest, you gain Weave points equal to your Wisdom modifier.
 #### Empowered Casting
 At 10th level you add your Widom modifier to the damage of any spell or ability you use.
 #### Force of Will
