@@ -37,7 +37,7 @@ ClassList.weaver = {
         [true, false, ["shortsword","scimitar","longsword","rapier"] ],
         [true, false, ["shortsword","scimitar","longsword","rapier"] ]
     ],
-    equipment : "Weaver starting equipment:\n \u2022 Leather Armor;\n \u2022 A martial weapon -or- a simple weapon;\n \u2022 A longbow and 20 arrows -or- a martial melee weapon;\n \u2022 An explorer's pack.\n\nAlternatively, choose 5d4 \xD7 10 gp worth of starting equipment instead of both the class' and the background's starting equipment.",
+    equipment : "Weaver starting equipment:\n \u2022 Leather Armor;\n \u2022 A martial weapon -or- a simple weapon;\n \u2022 A shortbow and 20 arrows -or- a martial melee weapon;\n \u2022 An explorer's pack.\n\nAlternatively, choose 5d4 \xD7 10 gp worth of starting equipment instead of both the class' and the background's starting equipment.",
     subclasses : ["Weaver Path", ["weaver-guardian", "weaver-sage", "weaver-sentinel"]],
     attacks : [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
     spellcastingFactor : "weaver1",

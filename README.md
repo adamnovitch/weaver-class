@@ -10,7 +10,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** Light armor, Medium Armor
-- **Weapons:** Simple weapons, Longswords, Scimitars, and Shortswords
+- **Weapons:** Simple weapons, Longswords, Rapiers, Scimitars, and Shortswords
 - **Tools:** One artisan's tools of your choice
 
 ___
@@ -19,13 +19,13 @@ ___
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
-- *(a)* a Martial Melee Weapon or *(b)* a Longbow and (20) arrows
-- *(a)* a Martial Melee Weapon or *(b)* any simple melee weapon
+- *(a)* a Martial Melee Weapon or *(b)* a Shortbow and (20) arrows
+- *(a)* a Martial Melee Weapon or *(b)* a simple melee weapon
 - Leather Armor
 - *(a)* a Scholar's Pack or *(b)* an Explorer's Pack
 
 ### Sword Training
-As a Weaver, you have trained with various swords. At first level you gain proficiency in shortswords, scimitars, and longswords.
+As a Weaver, you have trained with various swords. At first level you gain proficiency in longswords, rapiers, scimitars, and shortswords.
 
 ### Weapon Defense
 At 1st level, while you are holding a versatile or finesse weapon, you get a +1 to your AC.
