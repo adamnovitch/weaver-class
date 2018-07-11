@@ -10,7 +10,7 @@ ___
 #### Proficiencies
 ___
 - **Armor:** Light armor, Medium Armor
-- **Weapons:** Simple weapons, Longswords, Scimitars, and Shortswords
+- **Weapons:** Simple weapons, Longswords, Rapiers, Scimitars, and Shortswords
 - **Tools:** One artisan's tools of your choice
 
 ___
@@ -19,16 +19,16 @@ ___
 
 #### Equipment
 You start with the following equipment, in addition to the equipment granted by your background:
-- *(a)* a Martial Melee Weapon or *(b)* a Longbow and (20) arrows
-- *(a)* a Martial Melee Weapon or *(b)* any simple melee weapon
+- *(a)* a Martial Melee Weapon or *(b)* a Shortbow and (20) arrows
+- *(a)* a Martial Melee Weapon or *(b)* a simple melee weapon
 - Leather Armor
 - *(a)* a Scholar's Pack or *(b)* an Explorer's Pack
 
 ### Sword Training
-As a Weaver, you have trained with various swords. At first level you gain proficiency in shortswords, scimitars, and longswords.
+As a Weaver, you have trained with various swords. At first level you gain proficiency in longswords, rapiers, scimitars, and shortswords.
 
-### Saber Defense
-At 1st level, while you are holding a Dagger, Scimitar, Shortsword, or Longsword, you get a +1 to your AC.
+### Weapon Defense
+At 1st level, while you are holding a versatile or finesse weapon, you get a +1 to your AC.
 
 ### Cantrips
 At 1st level, choose 2 Cantrips from the Weaver spell list. You know these two Cantrips and can cast them at will.
@@ -76,7 +76,7 @@ At 7th level, you can create a invisible blast of magical energy as a bonus acti
 ##### The Weaver
 | Level | Proficiency Bonus | Features                        | Spells Known | Spell Points | Spell Level | Weave Powers Known |
 |:-----:|:-----------------:|:--------------------------------|:------------:|:------------:|:-----------:|:------------------:|
-| 1st   |                +2 | Saber Defense, Cantrips         |            - |            - |           - |                  - |
+| 1st   |                +2 | Weapon Defense, Cantrips        |            - |            - |           - |                  - |
 | 2nd   |                +2 | Spellcasting, Weave Powers      |            2 |            6 |           1 |                  1 |
 | 3rd   |                +2 | Path Selection, Path Feature    |            3 |            9 |           2 |                  1 |
 | 4th   |                +2 | Ability Score Improvement       |            4 |           11 |           2 |                  1 |
