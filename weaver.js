@@ -418,21 +418,19 @@ ClassSubList["weaver-sentinel"] = {
     subname : "Path of the Sentinel",
     features : {
         "subclassfeature3" : {
-            name : "Jack of All Trades",
+            name : "",
             minlevel : 3,
-            description : "\n   " + "I can add half my proficiency bonus to any ability check that doesn't already include it",
-            eval : "Checkbox('Jack of All Trades', true);",
-            removeeval : "Checkbox('Jack of All Trades', false);"
+            description : "\n   " + ""
         },
         "subclassfeature6" : {
-            name : "Expertise",
+            name : "",
             minlevel : 6,
-            description : "\n   " + "I gain expertise with two skills I am proficient with",
+            description : "\n   " + ""
         },
         "subclassfeature10" : {
-            name : "Reliable Talent",
+            name : "",
             minlevel : 10,
-            description : "\n   " + "If I make an ability check where I add my proficiency bonus, rolls of 9 or lower are 10"
+            description : "\n   " + ""
         },
         "subclassfeature14" : {
             name : "Evasiveness",
@@ -441,10 +439,9 @@ ClassSubList["weaver-sentinel"] = {
             saves : ["Str", "Dex", "Wis"],
         },
         "subclassfeature18" : {
-            name : "Master of All",
+            name : "",
             minlevel : 18,
-            description : "\n   " + "I gain proficiency in all skills and add my proficiency bonus to all ability checks",
-            eval : "Checkbox('Jack of All Trades', false);"
+            description : "\n   " + ""
         }
     }
 };

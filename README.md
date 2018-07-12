@@ -112,7 +112,7 @@ At 14th level you gain proficiency in Constitution saves.
 At 18th level you can make 3 attacks with your attack action.
 
 ### Path of the Sage
-### Superior Attunement
+### Extra Cantrip
 At 3rd level, you learn a 3rd Cantrip from the Weaver spell list.
 ### Weave Recovery
 At 6th level, when you complete short rest, you gain Weave points equal to your Wisdom modifier.
@@ -124,16 +124,22 @@ At 14th level, you gain proficiency in Intelligence or Charisma saves. You also 
 At 18th level, Weave powers you know that normally cost 2 or fewer weave points to use, do not cost any points to use.
 
 ### Path of the Sentinel
-#### Jack of All Trades
-At 2nd level, you add half your proficiency bonus to any ability or skill check you would not add your proficiency bonus to.
-#### Expertise
-At 6th level, Choose two skills in which you are proficient, you use double your proficiency bonus for those skill checks.
-#### Passive Skill
-At 10th level When you would roll a skill check, you can instead take a result of 10 on the die roll.
+Some of your abilities will require your target to make a saving throw. The DC may be determined by your STR or DEX instead of WIS.
+#### Combat Prowess
+Disarm against STR or DEX DC
+Prone against STR or DEX DC
+#### Level 6 Feature
+invisible
+Teleport
+#### Level 10 Feature
+blind against WIS DC
+deafen against WIS DC
 #### Evasiveness
 At 14th level You gain proficiency in Dexterity saves.
-#### Master of All
-At 18th level you become proficient in all skills. Also you add your proficiency bonus to all ability checks.
+#### Level 18 Feature
+paralyze against STR or DEX DC
+Falling/prone against WIS DC
+
 
 ### Spell List
 #### Cantrip
