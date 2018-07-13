@@ -126,20 +126,18 @@ At 18th level, Weave powers you know that normally cost 2 or fewer weave points 
 ### Path of the Sentinel
 Some of your abilities will require your target to make a saving throw. The DC may be determined by your STR or DEX instead of WIS.
 #### Combat Prowess
-Disarm against STR or DEX DC
-Prone against STR or DEX DC
+At 3rd level, when you hit an enemy with a weapon attack, you can spent 1 Spell Point to force that enemy to make a Strength saving throw, basing the DC off of your STR or DEX. On a failure, that enemy is either disarmed or is knocked prone. If you attempt to disarm an enemy that is holding a weapon with 2 hands, they have advantage on the save. You can only use this ability once per round.
 #### Level 6 Feature
-invisible
-Teleport
+At 6th level, when you take the attack action you can spend 2 spell points to use one of the following abilities:
+- You can teleport up to half your movement speed.
+- You can turn invisible until the beginning of your next turn. This effect ends if you cast a spell or make an attack.
+Additionally, when you attempt to knock a creature prone using Combat Prowess, you can opt to not take a second attack in order to launch the enemy in the air 10 feet when they fail the Strength save, making them take 1d6 bludgeoning damage when they fall prone. The DC for this uses your Wisdom. If the enemy would hit a ceiling, they take an additional 1d6 when they do. At level 10, the distance increases to 20 feet and the damage to 2d6. At level 14, 30 feet and 3d6. At level 18, 40 feet and 4d6.
 #### Level 10 Feature
-blind against WIS DC
-deafen against WIS DC
+At 10th level, you learn the Thunderclap and Word of Radiance cantrips. You can opt to spend 2 spell points when you cast either of these spells, and if you do, and a creature fails the saving throw, they become blinded (Word of Radiance) or deafened (thunderclap) for 1 round.
 #### Evasiveness
 At 14th level You gain proficiency in Dexterity saves.
 #### Level 18 Feature
-paralyze against STR or DEX DC
-Falling/prone against WIS DC
-
+At 18th level, when you hit an enemy with a weapon attack you can spend 7 Spell Points to force the enemy to make a CON save against either your STR, DEX, or WIS, or be paralyzed for 1 round.
 
 ### Spell List
 #### Cantrip

@@ -416,21 +416,31 @@ ClassSubList["weaver-sage"] = {
 ClassSubList["weaver-sentinel"] = {
     regExpSearch : /entinel/i,
     subname : "Path of the Sentinel",
+    abilitySaveAlt : 1,
     features : {
         "subclassfeature3" : {
-            name : "",
+            name : "Combat Prowess",
             minlevel : 3,
-            description : "\n   " + ""
+            description : "\n   " + "At 3rd level, when I hit an enemy with a weapon attack, I can spent 1 Spell Point to force that enemy to make a Strength saving throw, basing the DC off of my STR or DEX. On a failure, that enemy is either disarmed (advantage if two handed) or is knocked prone. I can only use this once per round."
+            action : ["action"," (with attack")]
         },
         "subclassfeature6" : {
-            name : "",
+            name : "Teleport or Disappear",
             minlevel : 6,
-            description : "\n   " + ""
+            description : "\n   " + "At 6th level, when I attack I can use 2 spell points to use one of the following abilities: 1) Teleport up to half my movement speed or 2) Turn invisible until the beginning of my next turn (ends if I cast or attack).",
+            action : ["action"," (in addition to attacks)"]
+        },
+        "subclassfeature62" : {
+            name : "Sky Drop",
+            minlevel : 6,
+            description : "\n   " + "I can forgo a second attack in order to launch an enemy I hit with an attack in the air 10 feet when they fail the Strength save, making them take 1d6 bludgeoning damage when they fall prone. DC uses my Wisdom. If the enemy would hit a ceiling, they take an additional 1d6 when they do. At level 10, the distance increases to 20 feet and the damage to 2d6. At level 14, 30 feet and 3d6. At level 18, 40 feet and 4d6.",
+            action : ["action"," (instead of 2nd attack)"]
         },
         "subclassfeature10" : {
-            name : "",
+            name : "Sensory Deprivation",
             minlevel : 10,
-            description : "\n   " + ""
+            description : "\n   " + "I learn Thunderclap and Word of Radiance. I can spend 2 spell points to defean with Thunderclap or blind with Word of Radiance, for 1 round",
+            spellcastingExtra : ["thunderclap","word of radiance"]
         },
         "subclassfeature14" : {
             name : "Evasiveness",
@@ -439,9 +449,10 @@ ClassSubList["weaver-sentinel"] = {
             saves : ["Str", "Dex", "Wis"],
         },
         "subclassfeature18" : {
-            name : "",
+            name : "Paralyzing Strike",
             minlevel : 18,
-            description : "\n   " + ""
+            description : "\n   " + "For 7 spell points, an enemy I hit makes a CON save against either STR, DEX, or WIS, or becomes paralyzed for 1 round"
+            action : ["action", " (with attack)"]
         }
     }
 };
