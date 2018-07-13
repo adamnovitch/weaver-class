@@ -421,8 +421,8 @@ ClassSubList["weaver-sentinel"] = {
         "subclassfeature3" : {
             name : "Combat Prowess",
             minlevel : 3,
-            description : "\n   " + "At 3rd level, when I hit an enemy with a weapon attack, I can spent 1 Spell Point to force that enemy to make a Strength saving throw, basing the DC off of my STR or DEX. On a failure, that enemy is either disarmed (advantage if two handed) or is knocked prone. I can only use this once per round."
-            action : ["action"," (with attack")]
+            description : "\n   " + "At 3rd level, when I hit an enemy with a weapon attack, I can spent 1 Spell Point to force that enemy to make a Strength saving throw, basing the DC off of my STR or DEX. On a failure, that enemy is either disarmed (advantage if two handed) or is knocked prone. I can only use this once per round.",
+            action : ["action"," (with attack)"]
         },
         "subclassfeature6" : {
             name : "Teleport or Disappear",
@@ -446,12 +446,12 @@ ClassSubList["weaver-sentinel"] = {
             name : "Evasiveness",
             minlevel : 14,
             description : "\n   " + "I gain proficiency in DEX saves",
-            saves : ["Str", "Dex", "Wis"],
+            saves : ["Str", "Dex", "Wis"]
         },
         "subclassfeature18" : {
             name : "Paralyzing Strike",
             minlevel : 18,
-            description : "\n   " + "For 7 spell points, an enemy I hit makes a CON save against either STR, DEX, or WIS, or becomes paralyzed for 1 round"
+            description : "\n   " + "For 7 spell points, an enemy I hit makes a CON save against either STR, DEX, or WIS, or becomes paralyzed for 1 round",
             action : ["action", " (with attack)"]
         }
     }
