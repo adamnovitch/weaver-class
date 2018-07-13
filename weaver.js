@@ -351,18 +351,16 @@ ClassSubList["weaver-guardian"] = {
             armor : [true, true, true, false]
         },
         "subclassfeature6" : {
-            name : "Action Surge",
+            name : "Empowered Strikes",
             minlevel : 6,
-            description : "\n   " + "I can take one additional action on my turn on top of my normally allowed actions",
-            usages : [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-            recovery : "short rest"
+            description : "\n   " + "As a bonus action, I can spend 3 Spell Points: my weapon's attacks count as magic for the purpose of overcoming resistance, and I can add my WIS mod to damage",
+            action : ["bonus action", " (before attack)"]
         },
         "subclassfeature10" : {
-            name : "Indomitable",
+            name : "Spellstrike",
             minlevel : 10,
-            description : "\n   " + "I can reroll a failed saving throw, but must keep the new result",
-            usages : [0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
-            recovery : "long rest"
+            description : "\n   " + "When I cast a spell, I can use a bonus action to make 1 weapon attack",
+            action : ["bonus action", " (after casting a spell)"]
         },
         "subclassfeature14" : {
             name : "Supreme Fortitude",
@@ -392,23 +390,20 @@ ClassSubList["weaver-sage"] = {
             description : "\n   " + "I learn a 3rd cantrip",
         },
         "subclassfeature6" : {
-            name : "Mana Recovery",
+            name : "Weave Recovery",
             minlevel : 6,
-            description : "\n   " + "During a short rest, I can recover a number mana points equal to half my weaver level (rounded up) + WIS modifier",
-            additional : levels.map(function (n) {
-                return (Math.ceil(n / 2)) + " + WIS mana points";
-            })
+            description : "\n   " + "During a short rest, I recover a number spell points equal to my WIS modifier",
         },
         "subclassfeature10" : {
             name : "Enhanced Magic",
             minlevel : 10,
-            description : "\n   " + "I can add my Wisdom modifier to the damage roll of any spell or weave ability I use"
+            description : "\n   " + "I can add my Wisdom modifier to the damage roll of any spell or ability I use"
         },
         "subclassfeature14" : {
             name : "Force of Will",
             minlevel : 14,
-            description : "\n   " + "I gain proficiency in INT and CHA saves",
-            saves : ["Str", "Int", "Wis", "Cha"]
+            description : "\n   " + "I choose to gain proficiency in INT or CHA saves. I also gain the spell Counterspell",
+            spellcastingExtra : ["counterspell"]
         },
         "subclassfeature18" : {
             name : "Unlimited Power!",
@@ -421,23 +416,31 @@ ClassSubList["weaver-sage"] = {
 ClassSubList["weaver-sentinel"] = {
     regExpSearch : /entinel/i,
     subname : "Path of the Sentinel",
+    abilitySaveAlt : 1,
     features : {
         "subclassfeature3" : {
-            name : "Jack of All Trades",
+            name : "Combat Prowess",
             minlevel : 3,
-            description : "\n   " + "I can add half my proficiency bonus to any ability check that doesn't already include it",
-            eval : "Checkbox('Jack of All Trades', true);",
-            removeeval : "Checkbox('Jack of All Trades', false);"
+            description : "\n   " + "At 3rd level, when I hit an enemy with a weapon attack, I can spent 1 Spell Point to force that enemy to make a Strength saving throw, basing the DC off of my STR or DEX. On a failure, that enemy is either disarmed (advantage if two handed) or is knocked prone. I can only use this once per round."
+            action : ["action"," (with attack")]
         },
         "subclassfeature6" : {
-            name : "Expertise",
+            name : "Teleport or Disappear",
             minlevel : 6,
-            description : "\n   " + "I gain expertise with two skills I am proficient with",
+            description : "\n   " + "At 6th level, when I attack I can use 2 spell points to use one of the following abilities: 1) Teleport up to half my movement speed or 2) Turn invisible until the beginning of my next turn (ends if I cast or attack).",
+            action : ["action"," (in addition to attacks)"]
+        },
+        "subclassfeature62" : {
+            name : "Sky Drop",
+            minlevel : 6,
+            description : "\n   " + "I can forgo a second attack in order to launch an enemy I hit with an attack in the air 10 feet when they fail the Strength save, making them take 1d6 bludgeoning damage when they fall prone. DC uses my Wisdom. If the enemy would hit a ceiling, they take an additional 1d6 when they do. At level 10, the distance increases to 20 feet and the damage to 2d6. At level 14, 30 feet and 3d6. At level 18, 40 feet and 4d6.",
+            action : ["action"," (instead of 2nd attack)"]
         },
         "subclassfeature10" : {
-            name : "Reliable Talent",
+            name : "Sensory Deprivation",
             minlevel : 10,
-            description : "\n   " + "If I make an ability check where I add my proficiency bonus, rolls of 9 or lower are 10"
+            description : "\n   " + "I learn Thunderclap and Word of Radiance. I can spend 2 spell points to defean with Thunderclap or blind with Word of Radiance, for 1 round",
+            spellcastingExtra : ["thunderclap","word of radiance"]
         },
         "subclassfeature14" : {
             name : "Evasiveness",
@@ -446,10 +449,10 @@ ClassSubList["weaver-sentinel"] = {
             saves : ["Str", "Dex", "Wis"],
         },
         "subclassfeature18" : {
-            name : "Master of All",
+            name : "Paralyzing Strike",
             minlevel : 18,
-            description : "\n   " + "I gain proficiency in all skills and add my proficiency bonus to all ability checks",
-            eval : "Checkbox('Jack of All Trades', false);"
+            description : "\n   " + "For 7 spell points, an enemy I hit makes a CON save against either STR, DEX, or WIS, or becomes paralyzed for 1 round"
+            action : ["action", " (with attack)"]
         }
     }
 };
