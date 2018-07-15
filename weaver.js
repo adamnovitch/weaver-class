@@ -160,33 +160,33 @@ ClassList.weaver = {
                             "Probe Darkness",
                             "Clear Mind"],
             "danger sense" : {
-                name : "[ ] Danger Sense",
+                name : "Danger Sense",
                 description : "\n   " + "(1 point) When I would have to make a dexterity saving throw, I can gain advantage on that saving throw."
             },
             "event focus" : {
-                name : "[ ] Event Focus",
+                name : "Event Focus",
                 description : "\n   " + "(1 point) By concentrating for 10 minutes, you open your senses to you surroundings. While concentrating, you can find any event occurring within 1 mile of your position. For every additional 2 points you spend on this ability you can double the range."
             },
             "focus skill" : {
-                name : "[ ] Focus Skill",
+                name : "Focus Skill",
                 description : "\n   " + "(1 point) I gain advantage on my next ability or skill check"
             },
             "helping hand" : {
-                name : "[ ] Helping Hand",
+                name : "Helping Hand",
                 description : "\n   " + "(1 point) I can use the help action as a bonus action to aid an ally within 30 feet",
                 action : ["bonus action", " (30 feet)"]
             },
             "mind meld" : {
-                name : "[ ] Mind Meld",
+                name : "Mind Meld",
                 description : "\n   " + "(1 point) As a bonus action, you can communicate telepathically with one willing creature you can see within 120 feet of you. The target must have an    Intelligence of at least 2,    otherwise this ability fails and the action is wasted. This communication can occur until the end of the current turn. You don’t need to share a language with the target for it to understand your telepathic utterances, and it understands you even if it lacks a language. You also gain access to one memory of the target’s choice, gaining perfect recall of one thing it saw or did.",
                 action : ["bonus action", " (120 feet)"]
             },
             "past sense" : {
-                name : "[ ] Past Sense",
+                name : "Past Sense",
                 description : "\n   " + "(1 point) By focusing for 1 minute at a location, you can gain an accurate understanding of any events that occurred at that spot within the past day. For every additional 2 points you spend on this ability you can double the time."
             },
             "strong strike" : {
-                name : "[ ] Strong Strike",
+                name : "Strong Strike",
                 description : "\n   " + "(1 point) Gain proficiency in unarmed strikes for this turn, your damage dice for your unarmed strikes and weapon attacks depends on your proficiency bonus (+2 use d4, +3 use d6, +4 use d8, +5 use d10, +6 use d12).",
                 additional : levels.map(function(n) {
                     if (n < 5) return "1d4";
@@ -197,116 +197,116 @@ ClassList.weaver = {
                 )
             },
             "brain teasing" : {
-                name : "[ ] Brain Teasing",
+                name : "Brain Teasing",
                 description : "\n   " + "(2 points) Target creature must make a wisdom save, taking 3d6 psychic damage on a failure, half on a success. It also becomes frightened if it fails.",
                 action : ["action"," (10 feet)"]
             },
             "deflect weapons" : {
-                name : "[ ] Deflect Weapons",
+                name : "Deflect Weapons",
                 description : "\n   " + "(2 points) When hit by a weapon attack, you can reduce damage by 1d10 + WIS + Weaver Level. Then if that damage is reduced to zero I can make one melee attack at that enemy",
                 action : ["reaction",""]
             },
             "patient defense" : {
-                name : "[ ] Patient Defense",
+                name : "Patient Defense",
                 description : "\n   " + "(2 points) I can take the Dodge action as a bonus action.",
                 action : ["bonus action",""]
             },
             "resist environment" : {
-                name : "[ ] Resist Environment",
+                name : "Resist Environment",
                 description : "\n   " + "(2 points) You become immune to the adverse effects of harsh weather for 1 hour. Additionally if you spend an extra 5 pts. you become immune to exhaustion for the next 8 hours."
             },
             "sense emotion" : {
-                name : "[ ] Sense Emotion",
+                name : "Sense Emotion",
                 description : "\n   " + "(2 points) You attune your senses to pick up the emotions of others for 10 minutes, with concentration. As your action, and as a bonus action on each turn for the duration, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm."
             },
             "battle meditation" : {
-                name : "[ ] Battle Meditation",
+                name : "Battle Meditation",
                 description : "\n   " + "(3 points) As a bonus action, you can grant yourself advantage on your next weapon attack.",
                 action : ["bonus action",""]
             },
             "end affliction" : {
-                name : "[ ] End Affliction",
+                name : "End Affliction",
                 description : "\n   " + "(3 points) End a fear effect on yourself",
                 action : ["bonus action",""]
             },
             "manipulate emotion" : {
-                name : "[ ] Manipulate Emotion",
+                name : "Manipulate Emotion",
                 description : "\n   " + "(3 points) As an action, you can choose 1 target you can see within 30 feet. You can attempt to change their emotional state. The creature can attempt a Wisdom saving throw to resist the effect. For every extra point you use towards this ability, you can attempt to use this ability on one additional creature within range. You can make the target creature(s) frightened, or you can make it friendly towards you and/or hostile towards their allies.",
                 action : ["action"," (30 feet)"]
             },
             "mind probe" : {
-                name : "[ ] Mind Probe",
+                name : "Mind Probe",
                 description : "\n   " + "(3 points) Touch an unwilling creature, which must make a Wisdom saving throw to avoid the effect. Gain access to one memory of the your choice, gaining perfect recall of one thing it saw or did. Also read its thougts",
                 action : ["action"," (touch)"]
             },
             "transfer emotion" : {
-                name : "[ ] Transfer Emotion",
+                name : "Transfer Emotion",
                 description : "\n   " + "(3 points) If a spell or ability puts you or an ally under the effect of an emotional condition such as fear, being charmed, etc, you can use this ability to cancel the effect on yourself or ally and redirect it at the hostile creature, which must make a Wisdom save.",
                 action : ["action"," (60 feet)"]
             },
             "improve ability" : {
-                name : "[ ] Improve Ability",
+                name : "Improve Ability",
                 description : "\n   " + "(4 points) You can treat one of your ability scores as if it were increased by 2 (+1) for all ability and skill checks for 1 hour."
             },
             "turn good or evil" : {
-                name : "[ ] Turn Good or Evil",
+                name : "Turn Good or Evil",
                 description : "\n   " + "(4 points) Target Good/Evil aligned creature within 60 feet that you can see must pass a Wisdom saving throw or it has disadvantage on all attack rolls and saving throws for up to 1 minute, and can repeat the save after each of its turns. You can't use Turn Evil if you are Evil aligned, and can't sue Turn Good if you are Good aligned.",
                 action : ["action"," (60 feet)"]
             },
             "brutal strike" : {
-                name : "[ ] Brutal Strike",
+                name : "Brutal Strike",
                 description : "\n   " + "(5 points) As a bonus action before you attack, you can double the damage dice of your weapon attacks this turn.",
                 action : ["bonus action"," (before attack)"]
             },
             "destructive burst" : {
-                name : "[ ] Destructive Burst",
+                name : "Destructive Burst",
                 description : "\n   " + "(5 points) Choose a point within 60 feet of yourself. Each creature in a 10 foot radius of that point must make a Strength saving throw. On a failure a creature takes 4d6 Thunder damage and is pushed 10 feet away from the point. A creature that succeeds takes half damage and isn't pushed back. If the spell is centered on a creature, that creature has to make a Constitution saving throw or take an additional 2d8 bludgeoning damage, which is considered magical.",
                 action : ["action",""]
             },
             "induce trance" : {
-                name : "[ ] Induce Trance",
+                name : "Induce Trance",
                 description : "\n   " + "(5 points) You can touch a creature and impose a Wisdom saving throw. That creature falls into a deep trance and cannot be awakened unless they take damage or until 1 minute has passed. The creature is considered incapacitated.",
                 action : ["action"," (touch)"]
             },
             "protect thoughts" : {
-                name : "[ ] Protect Thoughts",
+                name : "Protect Thoughts",
                 description : "\n   " + "(5 points) You become immune to scrying and to any effect that would sense your emotions, read your thoughts, or detect your location for 8 hours."
             },
             "resting alertness" : {
-                name : "[ ] Resting Alertness",
+                name : "Resting Alertness",
                 description : "\n   " + "(5 points) You become hyper aware of your surroundings, even while asleep. You have advantage on all perception checks, even while unconscious, and keep all bonuses to your perception and initiative. If you are asleep, you can wake yourself up at will. This does not extend to magical sleep."
             },
             "stun" : {
-                name : "[ ] Stun",
+                name : "Stun",
                 description : "\n   " + "(5 points) As part of a melee attack you can attempt to stun. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.",
                 action : ["action", " (with attack)"]
             },
             "bloodlust" : {
-                name : "[ ] Bloodlust",
+                name : "Bloodlust",
                 description : "\n   " + "(6 points) You can enter a state similar to the Barbarian's rage. This state lasts for a minute and requires concentration, and ends if you lose concentation or go for 1 round without making an attack. While in this state you add half your proficiency bonus to your weapon attack damage rolls, and you resist nonmagical bludgeoning, piercing, and slashing damage.",
                 action : ["bonus action", ""]
             },
             "resist trauma" : {
-                name : "[ ] Resist Trauma",
+                name : "Resist Trauma",
                 description : "\n   " + "(6 points) As a reaction, when you would have to make an Intelligence, Wisdom, or Charisma saving throw against an illusion or an effect that would frighten you, you have advantage on that saving throw. If you pass the save, you are immune to illusion and fear for the next hour.",
                 action : ["reaction", ""]
             },
             "break connection" : {
-                name : "[ ] Break Connection",
+                name : "Break Connection",
                 description : "\n   " + "(7 points) Target must make a Wisdom saving throw. On a failure, the target cannot cast spells or use spell-like abilities for one minute. At the end of each of the the creature's turns it can attempt to make the save again.",
                 action : ["action", " (60 feet)"]
             },
             "blindsight" : {
-                name : "[ ] Blindsight",
+                name : "Blindsight",
                 description : "\n   " + "(8 points) You gain Blindsight to a distance of 120 feet for 1 hour."
             },
             "probe darkness" : {
-                name : "[ ] Probe Darkness",
+                name : "Probe Darkness",
                 description : "\n   " + "(8 points) A stronger version of detect thoughts, you are able to go deep into the subconscious of your victim to release some of their deepest fears and trauma. Target must make a Wisdom saving throw. On a failure they take 10d8 psychic damage, half on a success. If they fail you learn one fear/trauma of the target. Subsequent psychic attacks do an extra 2d8 damage on the target. Target is immune to this ability for the next 24 hours, and if a target is affected by this again, you learn no new information and the damage is only 8d6.",
                 action : ["action", " (30 feet)"]
             },
             "clear mind" : {
-                name : "[ ] Clear Mind",
+                name : "Clear Mind",
                 description : "\n   " + "(9 points) You automatically succeed any Intelligence, Wisdom, or Charisma saving throw for the next 8 hours."
             }
         },
