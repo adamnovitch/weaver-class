@@ -23,11 +23,43 @@ Feats: Tavern Brawler
 Background: City Watch
 Skills: Arcana, Athletics, Insight, Perception, Mason's Tools
 Weapons: Longsword, Dagger, Unarmed Strike, Improvised Weapons, Grapple
+Parent: None
+Child : Orwyn_4
 Notes:
  +2 WIS and wisdom stats are somewhat optimized for good Perception and Insight,
  +3 STR with Athletics is optimized too. Arcana at +2 is fair. Character is
  primarily physical, Guardian Path. Spell and ability usage are mainly to buff
  melee. 
+
+Name: Orwyn_4
+Race: Human (Variant)
+Level: 4
+Array:
+ - STR: 16
+ - DEX:  8
+ - CON: 15
+ - INT: 10
+ - WIS: 16
+ - CHA: 12
+HP: 31
+AC: 15
+DC: 13
+Path: Guardian
+Feats: Tavern Brawler
+Background: City Watch
+Skills: Arcana, Athletics, Insight, Perception, Mason's Tools
+Weapons: Longsword, Dagger, Unarmed Strike, Improvised Weapons, Grapple
+Parent: Orwyn_3
+Child : None
+Notes:
+ +3 WIS and wisdom stats are somewhat optimized for good Perception and Insight,
+ +3 STR with Athletics is optimized too. Arcana at +2 is fair. Character is
+ primarily physical, Guardian Path. Spell and ability usage are mainly to buff
+ melee.
+ This build differs a bit from Orwyn_3 as many changes have been made to the
+ class, mostly impacting other archetypes and/or higher levels. Parry now replaced
+ with Weapon Defense, giving Orwyn_4 a passive +1 AC boost as long as he holds a
+ weapon with the Versatile or Finesse property.
 
 
 ############
