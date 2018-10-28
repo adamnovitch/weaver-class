@@ -70,12 +70,13 @@ At 7th level, you can create a invisible blast of magical energy as a bonus acti
 ### Weapon Recall
 At 11th level, if you are not wielding a weapon, you can use a bonus action to call a weapon you own or any one weapon not being held within 30 feet of you to your hand telekinetically. You can spend 3 spell points to use this ability as a reaction.
 
-### Level 15 Feature
+### Weave Burst
+ 
 
 ### Enhanced Casting
 At level 20, all spells you cast are treated as being cast 1 level higher for the purposed of extra damage dice or multiple targets.
 
-#### The Weaver
+## The Weaver
 | Level | Proficiency Bonus | Features                        | Spells Known | Spell Points | Spell Level | Weave Powers Known |
 |:-----:|:-----------------:|:--------------------------------|:------------:|:------------:|:-----------:|:------------------:|
 | 1st   |                +2 | Weapon Defense, Cantrips        |            - |            - |           - |                  - |
