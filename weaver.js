@@ -30,11 +30,9 @@ ClassList.weaver = {
         primary : [["One Artisan's Tool of you choice",1]]
     },
     armor : [
-        [true, true, false, false],
         [true, true, false, false]
     ],
     weapons : [
-        [true, false, ["shortsword","scimitar","longsword","rapier"] ],
         [true, false, ["shortsword","scimitar","longsword","rapier"] ]
     ],
     equipment : "Weaver starting equipment:\n \u2022 Leather Armor;\n \u2022 A martial weapon -or- a simple weapon;\n \u2022 A shortbow and 20 arrows -or- a martial melee weapon;\n \u2022 An explorer's pack.\n\nAlternatively, choose 5d4 \xD7 10 gp worth of starting equipment instead of both the class' and the background's starting equipment.",
@@ -169,7 +167,8 @@ ClassList.weaver = {
             },
             "focus skill" : {
                 name : "Focus Skill",
-                description : "\n   " + "(1 point) I gain advantage on my next ability or skill check"
+                description : "\n   " + "(1 point) I gain advantage on the next skill check I make within the next 10 minutes."
+                action : ["bonus action",""]
             },
             "helping hand" : {
                 name : "Helping Hand",
@@ -195,11 +194,12 @@ ClassList.weaver = {
                     if (n < 17) return "1d10";
                     return "1d12";}
                 )
+                action : ["bonus action"," (before attack)"]
             },
             "brain teasing" : {
                 name : "Brain Teasing",
                 description : "\n   " + "(2 points) Target creature must make a wisdom save, taking 3d6 psychic damage on a failure, half on a success. It also becomes frightened if it fails.",
-                action : ["action"," (10 feet)"]
+                action : ["action"," (30 feet)"]
             },
             "deflect weapons" : {
                 name : "Deflect Weapons",
@@ -293,7 +293,7 @@ ClassList.weaver = {
             },
             "break connection" : {
                 name : "Break Connection",
-                description : "\n   " + "(7 points) Target must make a Wisdom saving throw. On a failure, the target cannot cast spells or use spell-like abilities for one minute. At the end of each of the the creature's turns it can attempt to make the save again.",
+                description : "\n   " + "(7 points) Target must make a saving throw with their spellcasting ability. On a failure, the target cannot cast spells or use spell-like abilities or psionics for 1 minute.",
                 action : ["action", " (60 feet)"]
             },
             "blindsight" : {

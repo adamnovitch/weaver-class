@@ -28,13 +28,13 @@ You start with the following equipment, in addition to the equipment granted by 
 As a Weaver, you have trained with various swords. At first level you gain proficiency in longswords, rapiers, scimitars, and shortswords.
 
 ### Weapon Defense
-At 1st level, while you are holding a versatile or finesse weapon, you get a +1 to your AC.
+At 1st level, while you are holding a weapon with the Finesse or Versatile property, you get a +1 bonus to your AC.
 
 ### Cantrips
 At 1st level, choose 2 Cantrips from the Weaver spell list. You know these two Cantrips and can cast them at will.
 
 ### Spellcasting and Spell Points
-Starting at 2nd level, your training and connection to the Weave allows you to perform feats and cast spells. Your access to the Weave is measured in Spell Points. Your number of Spell Points are determined in the class table. They are regained after a long rest.
+Starting at 2nd level, your training and connection to the Weave allows you to perform feats and cast spells. As a weaver, your grasp of the weave allows you to bypass the need for material spell components or an arcane focus. However for spell components that have a gold value, you still require the material components. Your access to the Weave is measured in Spell Points. Your number of Spell Points are determined in the class table. They are regained after a long rest.
 
 Your spellcasting may require you to make a spell attack or force your target(s) to make a saving throw. Wisdom is your ability for this feature:
 
@@ -53,7 +53,7 @@ When casting spells, you use spell points instead of spell slots. Refer to the f
 |           5 |            7 |
 |           6 |            9 |
 
-You also get weave powers, which cost spell points but are not considered spellcasting. When you level up, you can learn a new spell, up to the spell level denoted in the class table, and can forget one spell you already know and learn a new one. You can have a number of Weave powers up to the number denoted in the class table, and can change which powers you have when you finish a long rest. You cannot select Weaver Powers whose point cost is more than half your level.
+You also get weave powers, which require you to use spell points but are not considered spels. When you level up, you can learn a new spell, up to the spell level denoted in the class table, and can forget one spell you already know and learn a new one. You can have a number of Weave powers up to the number denoted in the class table, and can change which powers you have when you finish a long rest. Unless otherwise noted, all weave powers use an action while in combat.
 
 ### Path Selection
 At 3nd level you choose your Path: Guardian, Sentinel, or Sage. Your choice grants you features at 3nd, 5th, 9th, 13th, and 17th level.
@@ -101,39 +101,44 @@ At 7th level, you can create a invisible blast of magical energy as a bonus acti
 
 ### Path of the Guardian
 #### Fighter Training
-At 3rd level, you gain proficiency in Heavy Armor. You may also choose a fighting style from the following: Defense, Dueling, Great Weapon Master, Two-Weapon Fighting.
+At 3rd level, you gain proficiency in Heavy Armor. You may also choose a fighting style from the following:
+- Defense: While you are wearing armor, you gain a +1 bonus to AC.
+- Dueling: When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
+- Great Weapon Fighting: When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.
+- Two-Weapon Fighting: When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.
+
 #### Empowered Strikes
-At 6th level, you can use a bonus action before you attack to spend 3 spell points. Your weapon attacks this turn are considered magical for the purpose of overcoming resistance, and deal extra damage equal to your wisdom modifier.
+At 6th level, you can use a bonus action before you attack to spend 3 spell points. Your weapon attacks this turn are considered magical for the purpose of overcoming resistance, and deal extra damage equal to your wisdom modifier (minimum 1).
 #### Spellstrike
 Beginning at 10th level, when you use your action to cast a spell, you can use your bonus action to make one weapon attack.
 #### Supreme Fortitude
-At 14th level you gain proficiency in Constitution saves.
+At 14th level you gain proficiency in Constitution saving throws.
 #### Flurry attack
 At 18th level you can make 3 attacks with your attack action.
 
 ### Path of the Sage
-### Extra Cantrip
-At 3rd level, you learn a 3rd Cantrip from the Weaver spell list.
+### Extra Cantrips
+At 3rd level, you learn a 3rd Cantrip from the Weaver spell list. You also learn 1 Cantrip from any spell list. This cantrip counts as a Weaver spell and uses your Wisdom as your spellcasting ability for attack and DC.
 ### Weave Recovery
-At 6th level, when you complete short rest, you gain Weave points equal to your Wisdom modifier.
+At 6th level, when you complete short rest, you regain Weave points equal to your Wisdom modifier.
 #### Empowered Casting
-At 10th level you add your Widom modifier to the damage of any spell or ability you use.
+At 10th level you add your Widom modifier to the damage of any spell or weave power you use.
 #### Force of Will
-At 14th level, you gain proficiency in Intelligence or Charisma saves. You also gain access to Counterspell.
+At 14th level, you gain proficiency in either Intelligence or Charisma saving throws. You also learn Counterspell. It is considered a Weaver spell and uses your Wisdom as your spellcasting ability.
 #### Unlimited Power!
-At 18th level, Weave powers you know that normally cost 2 or fewer weave points to use, do not cost any points to use.
+At 18th level, Weave powers you know that normally cost 2 or fewer spell points to use, do not cost any points to use. If a weave power would cost 1 spell point, but you have the option to expend more spell points, you must pay all spell points past the fist one.
 
 ### Path of the Sentinel
-Some of your abilities will require your target to make a saving throw. The DC may be determined by your STR or DEX instead of WIS.
+Some of your abilities will require your target to make a saving throw. The DC may be determined by your STR or DEX instead of WIS, whichever ability you use to make the weapon attack.
 #### Combat Prowess
-At 3rd level, when you hit an enemy with a weapon attack, you can spent 1 Spell Point to force that enemy to make a Strength saving throw, basing the DC off of your STR or DEX. On a failure, that enemy is either disarmed or is knocked prone. If you attempt to disarm an enemy that is holding a weapon with 2 hands, they have advantage on the save. You can only use this ability once per round.
+At 3rd level, when you hit an enemy with a weapon attack, you can expend 1 Spell Point to force that enemy to make a Strength saving throw, basing the DC off of your STR or DEX. On a failure, that enemy is either disarmed or is knocked prone. If you attempt to disarm an enemy that is holding a weapon with 2 hands, they have advantage on the saving throw. You can only use this ability once per round.
 #### Level 6 Feature
 At 6th level, when you take the attack action you can spend 2 spell points to use one of the following abilities:
 - You can teleport up to half your movement speed.
 - You can turn invisible until the beginning of your next turn. This effect ends if you cast a spell or make an attack.
-Additionally, when you attempt to knock a creature prone using Combat Prowess, you can opt to not take a second attack in order to launch the enemy in the air 10 feet when they fail the Strength save, making them take 1d6 bludgeoning damage when they fall prone. The DC for this uses your Wisdom. If the enemy would hit a ceiling, they take an additional 1d6 when they do. At level 10, the distance increases to 20 feet and the damage to 2d6. At level 14, 30 feet and 3d6. At level 18, 40 feet and 4d6.
+Additionally, when you attempt to knock a creature prone using Combat Prowess, you can opt to not take a second attack in order to launch the enemy in the air 10 feet when they fail the Strength save, making them take 1d6 bludgeoning damage when they fall prone. The DC for this uses your Wisdom. If the enemy would hit a ceiling, they take an additional 1d6 when they do. At level 11, the damage increases to 2d6. At level 17, 3d6.
 #### Level 10 Feature
-At 10th level, you learn the Thunderclap and Word of Radiance cantrips. You can opt to spend 2 spell points when you cast either of these spells, and if you do, and a creature fails the saving throw, they become blinded (Word of Radiance) or deafened (thunderclap) for 1 round.
+At 10th level, you learn the Thunderclap and Word of Radiance cantrips. They are treated as Weaver spells and use your Wisdom as your spellcasting ability for the DC. You can opt to spend 2 spell points when you cast either of these spells, and if you do, and a creature fails the saving throw, they become blinded (Word of Radiance) or deafened (thunderclap) for 1 round.
 #### Evasiveness
 At 14th level You gain proficiency in Dexterity saves.
 #### Level 18 Feature
@@ -147,6 +152,8 @@ At 18th level, when you hit an enemy with a weapon attack you can spend 7 Spell 
 - [Message](http://engl393-dnd5th.wikia.com/wiki/Message )
 - [Resistance](http://engl393-dnd5th.wikia.com/wiki/Resistance )
 - [Spare the Dying](http://engl393-dnd5th.wikia.com/wiki/Spare_the_Dying )
+- [Thunderclap](http://engl393-dnd5th.wikia.com/wiki/Thunderclap ) (Sentinel Level 10 only)
+- [Word of Radiance](http://engl393-dnd5th.wikia.com/wiki/Word_of_Radiance ) (Sentinel Level 10 only)
 
 #### 1st Level
 - [Absorb Elements](http://engl393-dnd5th.wikia.com/wiki/Absorb_Elements )
@@ -193,6 +200,7 @@ At 18th level, when you hit an enemy with a weapon attack you can spend 7 Spell 
 
 #### 3rd Level
 - [Blink](http://engl393-dnd5th.wikia.com/wiki/Blink )
+- [Counterspell](http://engl393-dnd5th.wikia.com/wiki/Counterspell ) (Sage Level 14 only)
 - [Haste](http://engl393-dnd5th.wikia.com/wiki/Haste )
 - [Lightningbolt](http://engl393-dnd5th.wikia.com/wiki/Lightningbolt )
 - [Life Transferrence](http://engl393-dnd5th.wikia.com/wiki/Life_Transferrence )
@@ -226,43 +234,119 @@ At 18th level, when you hit an enemy with a weapon attack you can spend 7 Spell 
 - [True Seeing](http://engl393-dnd5th.wikia.com/wiki/True_Seeing )
 
 ### Weave Powers
-#### 1 pt
-- **Danger Sense** When you would have to make a dexterity saving throw, you can gain advantage on that saving throw.
-- **Event Focus** By concentrating for 10 minutes, you open your senses to you surroundings. While concentrating, you can find any event occurring within 1 mile of your position. For every additional 2 points you spend on this ability you can double the range.
-- **Focus Skill** Gain advantage on the next skill check you make.
-- **Helping Hand** As a bonus action, you can use the Help action to aid an ally within 30 feet.
-- **Mind Meld** As a bonus action, you can communicate telepathically with one willing creature you can see within 120 feet of you. The target must have an	Intelligence of at least 2,	otherwise this ability fails and the action is wasted. This communication can occur until the end of the current turn. You don’t need to share a language with the target for it to understand your telepathic utterances, and it understands you even if it lacks a language. You also gain access to one memory of the target’s choice, gaining perfect recall of one thing it saw or did.
-- **Past Sense** By focusing for 1 minute at a location, you can gain an accurate understanding of any events that occurred at that spot within the past day. For every additional 2 points you spend on this ability you can double the time.
-- **Strong Strike** Gain proficiency in unarmed strikes for this turn, your damage dice for your unarmed strikes and weapon attacks depends on your proficiency bonus (+2 use d4, +3 use d6, +4 use d8, +5 use d10, +6 use d12).
-#### 2 pts
-- **Brain Teasing** Target creature must make a wisdom save, taking 3d6 psychic damage on a failure, half on a success. It also becomes frightened if it fails. 
-- **Deflect Weapons** When hit by a weapon attack, you can reduce damage by 1d10 + WIS + Weaver Level. Then if damage is reduced to zero, you can make one weapon attack against the attacking creature.
-- **Patient Defense** You can take the Dodge action as a bonus action.
-- **Resist Environment** You become immune to the adverse effects of harsh weather for 1 hour. Additionally if you spend an extra 5 pts. you become immune to exhaustion for the next 8 hours.
-- **Sense Emotion** You attune your senses to pick up the emotions of others for 10 minutes, with concentration. As your action, and as a bonus action on each turn for the duration, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm.
-#### 3 pts
-- **Battle Meditation** As a bonus action, you can grant yourself advantage on your next weapon attack.
-- **End Affliction** You can use this ability as an action to end one effect on yourself that is causing you to be frightened.
-- **Manipulate Emotion** As an action, you can choose 1 target you can see within 30 feet. You can attempt to change their emotional state. The creature can attempt a Wisdom saving throw to resist the effect. For every extra point you use towards this ability, you can attempt to use this ability on one additional creature within range. You can make the target creature(s) frightened, or you can make it friendly towards you and/or hostile towards their allies.
-- **Superior Mind Meld** Use your mind meld with a range of touch on an unwilling creature, which must make a Wisdom saving throw to avoid the effect.
-- **Transfer Emotion** If a spell or ability puts you or an ally under the effect of an emotional condition such as fear, being charmed, etc, you can use this ability to cancel the effect on yourself or ally and redirect it at the hostile creature.
-#### 4 pts
-- **Improve Ability** You can treat one of your ability scores as if it were increased by 2 (+1) for all ability and skill checks for 1 hour.
-- **Turn Good/Evil** Target Good/Evil aligned creature must pass a Wisdom saving throw or it has disadvantage on all attack rolls and saving throws for up to 1 minute, and can repeat the save after each of it's turns. You can't use Turn Evil if you are Evil aligned, and can't sue Turn Good if you are Good aligned.
-#### 5 pts
-- **Brutal Strike** As a bonus action before you attack, you can double the damage dice of your weapon attack.
-- **Destructive Burst** Choose a point within 60 feet of yourself. Each creature in a 10 foot radius of that point must make a Strength saving throw. On a failure a creature takes 4d6 Thunder damage and is pushed 10 feet away from the point. A creature that succeeds takes half damage and isn't pushed back. If the spell is centered on a creature, that creature has to make a Constitution saving throw or take an additional 2d8 bludgeoning damage, which is considered magical.
-- **Induce Trance** You can touch a creature and impose a Wisdom saving throw. That creature falls into a deep trance and cannot be awakened unless they take damage or until 1 minute has passed. The creature is considered incapacitated.
-- **Protect Thoughts** You become immune to scrying and to any effect that would sense your emotions, read your thoughts, or detect your location for 8 hours.
-- **Resting Alertness** You become hyper aware of your surroundings, even while asleep. You have advantage on all perception checks, even while unconscious, and keep all bonuses to your perception and initiative. If you are asleep, you can wake yourself up as a bonus action. This does not extend to magical sleep.
-- **Stun** As part of a melee attack you can attempt to stun. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.
-#### 6 pts
-- **Bloodlust** You can enter a state similar to the Barbarian's rage. This state lasts for a minute and requires concentration, and ends if you lose concentation or go for 1 round without making an attack. While in this state you add half your proficiency bonus to your weapon attack damage rolls, and you resist nonmagical bludgeoning, piercing, and slashing damage.
-- **Resist Trauma** As a reaction, when you would have to make an Intelligence, Wisdom, or Charisma saving throw against an illusion or an effect that would frighten you, you have advantage on that saving throw. If you pass the save, you are immune to illusion and fear for the next hour.
-#### 7 pts
-- **Break Connection** Target must make a Wisdom saving throw. On a failure, the target cannot cast spells or use spell-like abilities until they complete a long rest.
-#### 8 pts
-- **Blindsight** As a bonus action, you gain Blindsight to a distance of 120 feet for 1 hour.
-- **Probe Darkness** A stronger version of detect thoughts, you are able to go deep into the subconscious of your victim to release some of their deepest fears and trauma. Target must make a Wisdom saving throw. On a failure they take 10d8 psychic damage, half on a success. If they fail you learn one fear/trauma of the target. Subsequent psychic attacks do an extra 2d8 damage on the target. Target is immune to this ability for the next 24 hours, and if a target is affected by this again, you learn no new information and the damage is only 8d6.
-#### 9 pts
-- **Clear Mind** You have advantage on all Intelligence, Wisdom, and Charisma saving throws for the next 8 hours.
+**Battle Meditation**
+*prerequisite: Level 6*
+As a bonus action, you can spend 3 spell points to grant yourself advantage on your next weapon attack.
+
+**Blindsight**
+*prerequisite: Level 16*
+As a bonus action, you can spend 8 spell points to gain Blindsight to a distance of 60 feet for 1 hour.
+
+**Bloodlust**
+*prerequisite: Level 12*
+By spending 6 Spell points, you can use your bonus action to enter a state similar to the Barbarian's rage. This state lasts for 1 minute and requires concentration, and ends if you lose concentation or go for 1 round without making a weapon attack. While in this state you add half your proficiency bonus (rounded down) to your weapon attack damage rolls, and you resist nonmagical bludgeoning, piercing, and slashing damage.
+
+**Brain Teasing**
+*prerequisite: Level 4*
+As an action, you can spend 7 spell points and have a target creature within 30 feet make a wisdom saving throw, taking 3d6 psychic damage and becoming frightened of you if it fails. On a success it takes half damage. 
+
+**Break Connection**
+*prerequisite: Level 14*
+As an action, you can speld 7 spell points and have a target creature within 30 feet make a saving throw with their spellcasting ability. On a failure, the target cannot cast spells or use spell-like abilities or psionics for 1 minute.
+
+**Brutal Strike**
+*prerequisite: Level 10*
+As a bonus action before you attack, you can spend 5 spell points and double the damage dice of your weapon attacks this round.
+
+**Clear Mind**
+*prerequisite: Level 18*
+You have advantage on all Intelligence, Wisdom, and Charisma saving throws for the next 8 hours.
+
+**Danger Sense** 
+When you would have to make a dexterity saving throw, you can spend 1 spell point and gain advantage on that saving throw.
+
+**Deflect Weapons**
+*prerequisite: Level 4*
+When hit by a weapon attack, you can spend 2 spell points and your reaction to reduce the damage by 1d10 + WIS + Weaver Level. Then if damage is reduced to zero, you can make one weapon attack against the attacking creature.
+
+**Destructive Burst**
+*prerequisite: Level 10*
+As an action, you can spend 5 spell points and choose a point within 60 feet that you can see. Each creature in a 10 foot radius of that point must make a Strength saving throw. On a failure a creature takes 4d6 Thunder damage and is pushed 10 feet away from the point. A creature that succeeds takes half damage and isn't pushed back. If the spell is centered on a creature, that creature has to make a Constitution saving throw or take an additional 2d8 thunder damage.
+
+**End Affliction**
+*prerequisite: Level 6*
+As an action you can spend 3 spell points to end one effect on yourself that is causing you to be frightened.
+
+**Event Focus** 
+By spending 1 spell point, you concentrate for 10 minutes and open your senses to you surroundings. While concentrating, you can find any event occurring within 1 mile of your position. For every additional 2 points you spend on this ability you can double the range.
+
+**Focus Skill** 
+As a bonus action, you can spend 1 spell point to gain advantage on the next ability or skill check you make within the next 10 minutes.
+
+**Helping Hand** 
+As a bonus action, you can spend 1 spell point to use the Help action to aid an ally within 30 feet.
+
+**Improve Ability**
+*prerequisite: Level 8*
+By spending 4 spell points you can choose 1 ability. You get a +1 bonus to all ability checks and skill checks that use that ability for the next hour. If you use this ability a second time, the effect from the previous use is dispelled.
+
+**Induce Trance**
+*prerequisite: Level 10*
+As an action, you can spend 5 spell points to touch a creature and cause it to make a Wisdom saving throw. If that creature fails, it falls into a deep trance and cannot be awakened unless they take damage or until 1 minute has passed. The creature is considered incapacitated.
+
+**Manipulate Emotion**
+*prerequisite: Level 6*
+As an action, you can spend 3 spell points and choose 1 target you can see within 30 feet. You can attempt to change their emotional state. The creature can attempt a Wisdom saving throw to resist the effect. For every extra point you use towards this ability, you can attempt to use this ability on one additional creature within range. You can make the target creature(s) frightened, or you can make it friendly towards you and/or hostile towards their allies.
+
+**Mind Meld** 
+As a bonus action, by spending 1 spell point you can communicate telepathically with one willing creature you can see within 120 feet of you. The target must have an Intelligence of at least 2, otherwise this ability fails and the action is wasted. This communication can occur until the end of the current turn. You don’t need to share a language with the target for it to understand your telepathic utterances, and it understands you even if it lacks a language. You also gain access to one memory of the target’s choice, gaining perfect recall of one thing it saw or did.
+
+**Patient Defense**
+*prerequisite: Level 4*
+By spending 2 spell points, you can take the Dodge action as a bonus action.
+
+**Past Sense** 
+By spending 1 spell point, and focusing for 1 minute at a location, you can gain an accurate understanding of any events that occurred at that spot within the past day. For every additional 2 points you spend on this ability you can double the time.
+
+**Probe Darkness**
+*prerequisite: Level 16*
+For 8 spell points you can use a stronger version of detect thoughts, you are able to go deep into the subconscious of your victim to release some of their deepest fears and trauma. Target must make a Wisdom saving throw. On a failure they take 10d8 psychic damage, half on a success. If they fail you learn one fear/trauma of the target. Subsequent psychic attacks do an extra 2d8 damage on the target. Target is immune to this ability for the next 24 hours, and if a target is affected by this again, you learn no new information and the damage is only 8d6.
+
+**Protect Thoughts**
+*prerequisite: Level 10*
+For 5 spell points you become immune to scrying and to any effect that would sense your emotions, read your thoughts, or detect your location for 8 hours.
+
+**Resist Environment**
+*prerequisite: Level 4*
+For 2 spell points you become immune to the adverse effects of harsh weather for 1 hour. Additionally if you spend an extra 5 spell points you become immune to exhaustion for the next 8 hours. This ability does not prevent exhaustion from the effects of spells or class abilities.
+
+**Resist Trauma**
+*prerequisite: Level 12*
+As a reaction, when you would have to make an Intelligence, Wisdom, or Charisma saving throw against an illusion or an effect that would frighten you, you can spend 6 spell points to gain advantage on that saving throw. If you pass the save, you are immune to illusion and fear for the next hour.
+
+**Resting Alertness**
+*prerequisite: Level 10*
+For 5 spell points you become hyper aware of your surroundings, even while asleep. You have advantage on all perception checks, even while unconscious, and keep all bonuses to your perception and initiative. If you are asleep, you can wake yourself up as a bonus action. This does not extend to magical sleep.
+
+**Sense Emotion**
+*prerequisite: Level 4*
+You can spend 2 spell point to attune your senses to pick up the emotions of others for 10 minutes, with concentration. As your action, and as a bonus action on each turn for the duration, you can focus your senses on one humanoid you can see within 30 feet of you. You instantly learn the target’s prevailing emotion, whether it’s love, anger, pain, fear, calm, or something else. If the target isn’t actually humanoid or it is immune to being charmed, you sense that it is calm.
+
+**Strong Strike** 
+As a bonus action before you attack, you can spend 1 spell point to gain proficiency in unarmed strikes for this turn, your damage dice for your unarmed strikes and weapon attacks depends on your proficiency bonus (+2 use d4, +3 use d6, +4 use d8, +5 use d10, +6 use d12).
+
+**Stun**
+*prerequisite: Level 10*
+When you hit with a melee weapon attack, you can spend 5 spell point to try to stun your target. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.
+
+**Superior Mind Meld**
+*prerequisite: Level 6*
+As an action, you can spend 3 spell points to use your mind meld with a range of touch on an unwilling creature, which must make a Wisdom saving throw to avoid the effect.
+
+**Transfer Emotion**
+*prerequisite: Level 6*
+If a spell or ability puts you or an ally under the effect of an emotional condition such as fear, being charmed, etc, you can spend 3 spell points and your reaction to cancel the effect on yourself or ally within 30 feet and redirect it at the hostile creature.
+
+**Turn Good/Evil**
+*prerequisite: Level 8*
+As an action, you can spend 4 spell points to make target Good/Evil aligned creature make a Wisdom saving throw or it has disadvantage on all attack rolls and saving throws for up to 1 minute, and can repeat the save after each of it's turns. You can't use Turn Evil if you are Evil aligned, and can't sue Turn Good if you are Good aligned. Neutral and unaligned creatures are immune.
