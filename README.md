@@ -1,4 +1,4 @@
-# Weaver 2.0
+# Weaver Class
 ## Class Features
 As a Weaver, you gain the following class features
 #### Hit Points
