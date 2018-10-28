@@ -320,10 +320,10 @@ ClassList.weaver = {
             minlevel : 5,
             description : "\n   " + "I make 2 attacks with my attack action"
         },
-        "level20feature" : {
-            name : "Lv20 TBD",
+        "Enhanced Casting" : {
+            name : "Enhanced Casting",
             minlevel : 20,
-            description : "\n   " + "TBD"
+            description : "\n   " + "Spells I cast are treated as being cast 1 level higher for the purposed of extra damage dice or multiple targets"
         }
     }    
 };

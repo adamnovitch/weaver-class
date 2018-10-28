@@ -67,11 +67,8 @@ At 5th level, you can make 2 attacks with your attack action.
 ### Force Blast
 At 7th level, you can create a invisible blast of magical energy as a bonus action. This blast has a range of 60 feet, and does 2d6 force damage. Roll a ranged spell attack and add your Wisdom modifier and proficiency bonus. On a hit, the target must make a strength saving throw of be pushed back 5 feet. You can spend a maximum of 2 Spell Points, and for each point spent, the damage increases by 1d6 and you can push the enemy back an additional 5 feet. You do not have disadvantage if an enemy is within 5 feet.
 
-### Level 11 Feature
-
-### Level 15 Feature
-
-### Level 20 Feature
+### Enhanced Casting
+At level 20, all spells you cast are treated as being cast 1 level higher for the purposed of extra damage dice or multiple targets.
 
 ##### The Weaver
 | Level | Proficiency Bonus | Features                        | Spells Known | Spell Points | Spell Level | Weave Powers Known |
@@ -86,16 +83,16 @@ At 7th level, you can create a invisible blast of magical energy as a bonus acti
 | 8th   |                +3 | Ability Score Improvement       |            8 |           27 |           3 |                  3 |
 | 9th   |                +4 | -                               |            9 |           33 |           4 |                  3 |
 | 10th  |                +4 | Path Feature                    |           10 |           38 |           4 |                  3 |
-| 11th  |                +4 | Level 11 Feature                |           11 |           44 |           4 |                  4 |
+| 11th  |                +4 | -                               |           11 |           44 |           4 |                  4 |
 | 12th  |                +4 | Ability Score Improvement       |           11 |           51 |           5 |                  4 |
 | 13th  |                +5 | -                               |           12 |           57 |           5 |                  4 |
 | 14th  |                +5 | Path Feature                    |           12 |           64 |           5 |                  5 |
-| 15th  |                +5 | Level 15 Feature                |           13 |           73 |           6 |                  5 |
+| 15th  |                +5 | -                               |           13 |           73 |           6 |                  5 |
 | 16th  |                +5 | Ability Score Improvement       |           13 |           80 |           6 |                  5 |
 | 17th  |                +6 | -                               |           14 |           89 |           6 |                  6 |
 | 18th  |                +6 | Path Feature                    |           14 |           89 |           6 |                  6 |
 | 19th  |                +6 | Ability Score Improvement       |           15 |           89 |           6 |                  6 |
-| 20th  |                +6 | Level 20 Feature                |           15 |           89 |           6 |                  7 |
+| 20th  |                +6 | Enhanced Casting                |           15 |           89 |           6 |                  7 |
 
 ## Weaver Paths
 
