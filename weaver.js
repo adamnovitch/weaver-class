@@ -320,10 +320,21 @@ ClassList.weaver = {
             minlevel : 5,
             description : "\n   " + "I make 2 attacks with my attack action"
         },
-        "level20feature" : {
-            name : "Lv20 TBD",
-            minlevel : 20,
+        "Weapon Recall" : {
+            name : "Weapon Recall",
+            minlevel : 11,
+            description : "\n   " + "I can call a weapon to my hand within 30 feet if it is not being held. I can spend 3 points to use this as a reaction",
+            action : ["bonus action", ""]
+        },
+        "level15feature" : {
+            name : "Lv15 TBD",
+            minlevel : 15,
             description : "\n   " + "TBD"
+        },
+        "Enhanced Cast" : {
+            name : "Enhanced Cast",
+            minlevel : 20,
+            description : "\n   " + "Spells I cast are treated as being cast 1 level higher for the purposed of extra damage dice or multiple targets"
         }
     }    
 };
