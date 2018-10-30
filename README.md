@@ -67,8 +67,8 @@ At 5th level, you can make 2 attacks with your attack action.
 ### Force Blast
 At 7th level, you can create a invisible blast of magical energy as a bonus action. This blast has a range of 60 feet, and does 2d6 force damage. Roll a ranged spell attack and add your Wisdom modifier and proficiency bonus. On a hit, the target must make a strength saving throw of be pushed back 5 feet. You can spend a maximum of 2 Spell Points, and for each point spent, the damage increases by 1d6 and you can push the enemy back an additional 5 feet. You do not have disadvantage if an enemy is within 5 feet.
 
-### Enhanced Casting
-At level 20, all spells you cast are treated as being cast 1 level higher for the purposed of extra damage dice or multiple targets.
+### Grasp of the Weave
+At level 20, as a bonus action you can draw power from the weave to enhance your abilities further than before. While using this ability you can't be surprised and you have advantage on attack rolls, ability checks, and saving throws. In addition, other creatures have disadvantage on attack rolls against you. This lasts for one minute. It does not require concentration, but you need to make a concentration check to maintain it. Once you use this ability, you cannot use it again until after a long rest.
 
 ##### The Weaver
 | Level | Proficiency Bonus | Features                        | Spells Known | Spell Points | Spell Level | Weave Powers Known |
@@ -92,7 +92,7 @@ At level 20, all spells you cast are treated as being cast 1 level higher for th
 | 17th  |                +6 | -                               |           14 |           89 |           6 |                  6 |
 | 18th  |                +6 | Path Feature                    |           14 |           89 |           6 |                  6 |
 | 19th  |                +6 | Ability Score Improvement       |           15 |           89 |           6 |                  6 |
-| 20th  |                +6 | Enhanced Casting                |           15 |           89 |           6 |                  7 |
+| 20th  |                +6 | Grasp of the Weave              |           15 |           89 |           6 |                  7 |
 
 ## Weaver Paths
 
@@ -122,8 +122,8 @@ At 6th level, when you complete short rest, you regain Weave points equal to you
 At 10th level you add your Widom modifier to the damage of any spell or weave power you use.
 #### Force of Will
 At 14th level, you gain proficiency in either Intelligence or Charisma saving throws. You also learn Counterspell. It is considered a Weaver spell and uses your Wisdom as your spellcasting ability.
-#### Unlimited Power!
-At 18th level, Weave powers you know that normally cost 2 or fewer spell points to use, do not cost any points to use. If a weave power would cost 1 spell point, but you have the option to expend more spell points, you must pay all spell points past the fist one.
+### Enhanced Casting
+At level 18, all spells you cast are treated as being cast 1 level higher for the purpose of extra damage dice or multiple targets.
 
 ### Path of the Sentinel
 Some of your abilities will require your target to make a saving throw. The DC may be determined by your STR or DEX instead of WIS, whichever ability you use to make the weapon attack.

@@ -321,9 +321,11 @@ ClassList.weaver = {
             description : "\n   " + "I make 2 attacks with my attack action"
         },
         "Enhanced Casting" : {
-            name : "Enhanced Casting",
+            name : "Grasp the Weave",
             minlevel : 20,
-            description : "\n   " + "Spells I cast are treated as being cast 1 level higher for the purposed of extra damage dice or multiple targets"
+            description : "\n   " + "For 1 minute, I can't be surprised, I have advantage on attack rolls, ability/skill checks, and saving throws. Ends after a failed concentration check"
+            action : ["bonus action",""],
+            recovery : "long rest"
         }
     }    
 };
@@ -405,9 +407,9 @@ ClassSubList["weaver-sage"] = {
             spellcastingExtra : ["counterspell"]
         },
         "subclassfeature18" : {
-            name : "Unlimited Power!",
+            name : "Enhanced Casting",
             minlevel : 18,
-            description : "\n   " + "At 18th level, Weave powers I know that normally cost 2 or fewer weave points to use, do not cost any points to use"
+            description : "\n   " + "Spells I cast are treated as being cast 1 level higher for the purposed of extra damage dice or multiple targets"
         }
     }
 }
