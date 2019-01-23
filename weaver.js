@@ -167,8 +167,8 @@ ClassList.weaver = {
             },
             "focus skill" : {
                 name : "Focus Skill",
-                description : "\n   " + "(1 point) I gain advantage on the next skill check I make within the next 10 minutes."
-                action : ["bonus action",""]
+                description : "\n   " + "(1 point) I gain advantage on the next skill check I make within the next 10 minutes.",
+                action : ["bonus action", ""]
             },
             "helping hand" : {
                 name : "Helping Hand",
@@ -193,7 +193,7 @@ ClassList.weaver = {
                     if (n < 13) return "1d8";
                     if (n < 17) return "1d10";
                     return "1d12";}
-                )
+                ),
                 action : ["bonus action"," (before attack)"]
             },
             "brain teasing" : {
@@ -323,7 +323,7 @@ ClassList.weaver = {
         "Enhanced Casting" : {
             name : "Grasp the Weave",
             minlevel : 20,
-            description : "\n   " + "For 1 minute, I can't be surprised, I have advantage on attack rolls, ability/skill checks, and saving throws. Ends after a failed concentration check"
+            description : "\n   " + "For 1 minute, I can't be surprised, I have advantage on attack rolls, ability/skill checks, and saving throws. Ends after a failed concentration check",
             action : ["bonus action",""],
             recovery : "long rest"
         }
