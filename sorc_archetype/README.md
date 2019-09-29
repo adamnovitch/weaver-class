@@ -17,7 +17,7 @@ Starting at 1st level, you learn an additional spell when you reach certain leve
 |:--------------:|:------------------|
 | 1st            | Zephyr Strike     |
 | 3rd            | Magic Weapon      |
-| 5th            | Zephyr Strike     |
+| 5th            | Haste             |
 | 7th            | Divination        |
 | 9th            | Steel Wind Strike |
 
